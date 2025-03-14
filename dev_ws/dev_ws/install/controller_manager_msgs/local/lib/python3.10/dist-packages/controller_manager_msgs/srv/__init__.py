@@ -1,1 +1,0 @@
-/home/jowi/dev_ws/build/controller_manager_msgs/rosidl_generator_py/controller_manager_msgs/srv/__init__.py

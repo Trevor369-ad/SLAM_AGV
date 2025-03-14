@@ -1,5 +1,0 @@
-[  2%] Built target ament_generate_version_header__hardware_interface
-[ 11%] Built target gmock
-[ 17%] Built target gmock_main
-[ 22%] Built target test_macros
-[ 25%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o[0m

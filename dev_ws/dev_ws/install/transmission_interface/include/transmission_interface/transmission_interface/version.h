@@ -1,1 +1,0 @@
-/home/jowi/dev_ws/build/transmission_interface/ament_generate_version_header/transmission_interface/transmission_interface/version.h

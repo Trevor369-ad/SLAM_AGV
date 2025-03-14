@@ -1,3 +1,0 @@
-[console_scripts]
-twist_converter = twist_converter.twist_converter:main
-

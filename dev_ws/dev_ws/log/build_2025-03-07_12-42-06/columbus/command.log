@@ -1,6 +1,0 @@
-Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jowi/dev_ws/src/columbus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/columbus
-Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jowi/dev_ws/src/columbus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/columbus
-Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/columbus -- -j8 -l8
-Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/columbus -- -j8 -l8
-Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/columbus
-Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/columbus

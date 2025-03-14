@@ -1,1 +1,0 @@
-/home/jowi/dev_ws/src/columbus/launch/rsp.launch.py

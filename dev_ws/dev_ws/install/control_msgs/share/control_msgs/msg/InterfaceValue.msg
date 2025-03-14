@@ -1,1 +1,0 @@
-/home/jowi/dev_ws/src/control_msgs/control_msgs/msg/InterfaceValue.msg

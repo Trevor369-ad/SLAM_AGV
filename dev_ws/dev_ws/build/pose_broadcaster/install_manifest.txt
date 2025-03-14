@@ -1,3 +1,0 @@
-/home/jowi/dev_ws/install/pose_broadcaster/lib/libpose_broadcaster.so
-/home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport.cmake
-/home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport-noconfig.cmake

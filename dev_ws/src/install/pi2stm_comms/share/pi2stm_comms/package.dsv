@@ -1,9 +1,0 @@
-source;share/pi2stm_comms/hook/pythonpath.ps1
-source;share/pi2stm_comms/hook/pythonpath.dsv
-source;share/pi2stm_comms/hook/pythonpath.sh
-source;share/pi2stm_comms/hook/ament_prefix_path.ps1
-source;share/pi2stm_comms/hook/ament_prefix_path.dsv
-source;share/pi2stm_comms/hook/ament_prefix_path.sh
-source;../../build/pi2stm_comms/share/pi2stm_comms/hook/pythonpath_develop.ps1
-source;../../build/pi2stm_comms/share/pi2stm_comms/hook/pythonpath_develop.dsv
-source;../../build/pi2stm_comms/share/pi2stm_comms/hook/pythonpath_develop.sh

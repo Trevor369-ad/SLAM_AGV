@@ -1,1 +1,0 @@
-/home/jowi/dev_ws/build/controller_manager_msgs/rosidl_cmake/srv/SwitchController_Response.msg

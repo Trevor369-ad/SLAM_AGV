@@ -1,3 +1,0 @@
-/home/jowi/dev_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
-/home/jowi/dev_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
-/home/jowi/dev_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-noconfig.cmake

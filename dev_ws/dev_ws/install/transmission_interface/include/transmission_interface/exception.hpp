@@ -1,1 +1,0 @@
-/home/jowi/dev_ws/src/ros2_control/transmission_interface/include/transmission_interface/exception.hpp
