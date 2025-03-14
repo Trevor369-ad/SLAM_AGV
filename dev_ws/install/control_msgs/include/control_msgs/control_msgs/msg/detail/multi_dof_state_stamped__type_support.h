@@ -1,0 +1,1 @@
+/home/jowi/dev_ws/build/control_msgs/rosidl_generator_c/control_msgs/msg/detail/multi_dof_state_stamped__type_support.h

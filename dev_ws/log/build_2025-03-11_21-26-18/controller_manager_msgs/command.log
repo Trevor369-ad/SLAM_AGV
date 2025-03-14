@@ -1,0 +1,4 @@
+Invoking command in '/home/jowi/dev_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/controller_manager_msgs -- -j8 -l8
+Invoked command in '/home/jowi/dev_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/controller_manager_msgs -- -j8 -l8
+Invoking command in '/home/jowi/dev_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/controller_manager_msgs
+Invoked command in '/home/jowi/dev_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/controller_manager_msgs

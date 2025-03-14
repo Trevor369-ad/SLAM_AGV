@@ -1,0 +1,97 @@
+[0.019s] Invoking command in '/home/jowi/dev_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/gripper_controllers
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting CXX compiler ABI info
+[0.176s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.486s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.539s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.547s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.818s] -- Found control_toolbox: 3.6.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.879s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.883s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.978s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.011s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.062s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.189s] -- Found Threads: TRUE  
+[1.373s] -- Found controller_interface: 2.48.0 (/home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake)
+[1.419s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.420s] -- Found controller_manager: 2.48.0 (/home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake)
+[1.460s] -- Found ros2_control_test_assets: 2.48.0 (/home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.463s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.510s] -- The C compiler identification is GNU 11.4.0
+[1.518s] -- Detecting C compiler ABI info
+[1.617s] -- Detecting C compiler ABI info - done
+[1.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.636s] -- Detecting C compile features
+[1.636s] -- Detecting C compile features - done
+[1.642s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.643s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.757s] -- Configuring done (1.7s)
+[1.819s] -- Generating done (0.0s)
+[1.830s] -- Build files have been written to: /home/jowi/dev_ws/build/gripper_controllers
+[1.847s] Invoked command in '/home/jowi/dev_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/gripper_controllers
+[1.849s] Invoking command in '/home/jowi/dev_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/gripper_controllers -- -j8 -l8
+[1.879s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.879s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.879s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jowi/dev_ws/build/gripper_controllers/include/gripper_controllers/gripper_action_controller_parameters.hpp /home/jowi/dev_ws/src/ros2_controllers/gripper_controllers/src/gripper_action_controller_parameters.yaml `[0m
+[1.880s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.540s] [ 38%] [34m[1mCreating deprecated header file /home/jowi/dev_ws/build/gripper_controllers/include/gripper_action_controller_parameters.hpp[0m
+[2.578s] [ 38%] Built target gripper_action_controller_parameters
+[2.601s] [ 46%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[4.515s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.565s] [ 53%] Built target gmock_main
+[7.743s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.864s] [ 61%] Built target gmock
+[7.882s] [ 69%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[11.424s] [ 76%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[11.743s] [ 76%] Built target gripper_action_controller
+[11.757s] [ 84%] [32mBuilding CXX object CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o[0m
+[15.933s] [ 92%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[17.726s] [ 92%] Built target test_load_gripper_action_controllers
+[21.425s] [100%] [32m[1mLinking CXX executable test_gripper_controllers[0m
+[21.892s] [100%] Built target test_gripper_controllers
+[21.899s] Invoked command in '/home/jowi/dev_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/gripper_controllers -- -j8 -l8
+[21.901s] Invoking command in '/home/jowi/dev_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/gripper_controllers
+[21.904s] -- Install configuration: ""
+[21.904s] -- Execute custom install script
+[21.905s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/include/gripper_controllers/gripper_action_controller_parameters.hpp
+[21.909s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers//ros_control_plugins.xml
+[21.913s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller.hpp
+[21.917s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller_impl.hpp
+[21.921s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/hardware_interface_adapter.hpp
+[21.924s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/visibility_control.hpp
+[21.928s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.sh
+[21.932s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.dsv
+[21.936s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+[21.940s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+[21.944s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+[21.948s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+[21.952s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+[21.956s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+[21.960s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+[21.963s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+[21.968s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+[21.972s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+[21.975s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/package.dsv
+[21.979s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+[21.983s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+[21.987s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.991s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[21.995s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+[21.999s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+[22.003s] -- Symlinking: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/package.xml
+[22.007s] -- Installing: /home/jowi/dev_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+[22.009s] -- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/gripper_controllers/lib/libgripper_action_controller.so" to ""
+[22.009s] -- Installing: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport.cmake
+[22.009s] -- Installing: /home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport-noconfig.cmake
+[22.011s] Invoked command in '/home/jowi/dev_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/gripper_controllers

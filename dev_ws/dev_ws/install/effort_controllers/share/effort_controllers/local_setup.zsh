@@ -1,0 +1,1 @@
+/home/jowi/dev_ws/build/effort_controllers/ament_cmake_environment_hooks/local_setup.zsh

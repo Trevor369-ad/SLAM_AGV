@@ -1,0 +1,121 @@
+[0.009s] Invoking command in '/home/jowi/dev_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/transmission_interface
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.300s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.539s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.566s] -- Found hardware_interface: 2.48.0 (/home/jowi/dev_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.616s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.623s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.634s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.971s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.004s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.050s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.054s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.073s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.077s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.087s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.176s] -- Found Threads: TRUE  
+[1.257s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.259s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.264s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.265s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.403s] -- Configuring done (1.4s)
+[1.565s] -- Generating done (0.1s)
+[1.585s] -- Build files have been written to: /home/jowi/dev_ws/build/transmission_interface
+[1.604s] Invoked command in '/home/jowi/dev_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/transmission_interface
+[1.605s] Invoking command in '/home/jowi/dev_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/transmission_interface -- -j8 -l8
+[1.634s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.634s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.634s] [ 12%] [34m[1mGenerating transmission_interface/version.h[0m
+[1.635s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.645s] [ 16%] Built target ament_generate_version_header__transmission_interface
+[1.662s] [ 29%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[1.663s] [ 29%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[1.663s] [ 29%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[4.736s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.766s] [ 33%] Built target gmock_main
+[8.183s] [ 37%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.256s] [ 37%] Built target gmock
+[8.279s] [ 45%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[8.279s] [ 45%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[8.282s] [ 54%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[8.282s] [ 54%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[8.282s] [ 62%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[8.282s] [ 62%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[8.287s] [ 66%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils_test.cpp.o[0m
+[8.688s] [ 70%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[9.512s] [ 70%] Built target transmission_interface
+[13.145s] [ 75%] [32m[1mLinking CXX executable test_utils[0m
+[14.167s] [ 75%] Built target test_utils
+[14.661s] [ 79%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[14.687s] [ 83%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[14.975s] [ 87%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[15.787s] [ 87%] Built target test_four_bar_linkage_transmission
+[15.820s] [ 87%] Built target test_simple_transmission
+[15.853s] [ 87%] Built target test_differential_transmission
+[18.301s] [ 91%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[18.617s] [ 95%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[18.623s] [100%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[19.433s] [100%] Built target test_simple_transmission_loader
+[19.715s] [100%] Built target test_four_bar_linkage_transmission_loader
+[19.739s] [100%] Built target test_differential_transmission_loader
+[19.745s] Invoked command in '/home/jowi/dev_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/transmission_interface -- -j8 -l8
+[19.748s] Invoking command in '/home/jowi/dev_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/transmission_interface
+[19.751s] -- Install configuration: ""
+[19.751s] -- Execute custom install script
+[19.752s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[19.756s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[19.761s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[19.765s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[19.769s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[19.773s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[19.777s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[19.781s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[19.785s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[19.790s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[19.794s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[19.798s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[19.802s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[19.807s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface//ros2_control_plugins.xml
+[19.811s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[19.815s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[19.819s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[19.824s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[19.828s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[19.832s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[19.836s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[19.840s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[19.845s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[19.849s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[19.853s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[19.857s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[19.861s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[19.865s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[19.870s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[19.874s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.878s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.882s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[19.886s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[19.890s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[19.894s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/package.xml
+[19.898s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission_interface/version.h
+[19.903s] -- Installing: /home/jowi/dev_ws/install/transmission_interface/lib/libtransmission_interface.so
+[19.904s] -- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[19.907s] Invoked command in '/home/jowi/dev_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/transmission_interface

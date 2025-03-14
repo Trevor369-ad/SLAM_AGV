@@ -1,0 +1,43 @@
+[ 11%] Built target pid_controller_parameters
+[ 23%] Built target gmock_main
+[ 41%] Built target gmock
+[ 47%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[ 52%] [32m[1mLinking CXX executable test_load_pid_controller[0m
+[ 58%] Built target pid_controller
+[ 70%] [32m[1mLinking CXX executable test_pid_controller_preceding[0m
+[ 70%] [32m[1mLinking CXX executable test_pid_controller[0m
+[ 76%] [32m[1mLinking CXX executable test_pid_controller_dual_interface[0m
+[ 82%] Built target test_load_pid_controller
+[ 88%] Built target test_pid_controller_preceding
+[ 94%] Built target test_pid_controller_dual_interface
+[100%] Built target test_pid_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/include/pid_controller/pid_controller_parameters.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller//pid_controller.xml
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/include/pid_controller/pid_controller/pid_controller.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/include/pid_controller/pid_controller/visibility_control.h
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/ament_index/resource_index/package_run_dependencies/pid_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/ament_index/resource_index/parent_prefix_path/pid_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/environment/path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/environment/path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/local_setup.bash
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/local_setup.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/local_setup.zsh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/local_setup.dsv
+-- Symlinking: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/package.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/ament_index/resource_index/packages/pid_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pid_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/package.xml
+-- Installing: /home/jowi/dev_ws/install/pid_controller/lib/libpid_controller.so
+-- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/pid_controller/lib/libpid_controller.so" to ""
+-- Up-to-date: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
+-- Up-to-date: /home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-noconfig.cmake

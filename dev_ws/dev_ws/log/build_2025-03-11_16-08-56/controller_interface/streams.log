@@ -1,0 +1,97 @@
+[0.011s] Invoking command in '/home/jowi/dev_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/controller_interface
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.268s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.301s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.304s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.311s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.599s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.625s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.637s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.657s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.666s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.759s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.760s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.762s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.763s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.951s] -- Configuring done (0.9s)
+[1.325s] -- Generating done (0.3s)
+[1.372s] -- Build files have been written to: /home/jowi/dev_ws/build/controller_interface
+[1.387s] Invoked command in '/home/jowi/dev_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/controller_interface
+[1.389s] Invoking command in '/home/jowi/dev_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/controller_interface -- -j8 -l8
+[1.421s] [  8%] [34m[1mGenerating controller_interface/version.h[0m
+[1.421s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.422s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.424s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.436s] [ 16%] Built target ament_generate_version_header__controller_interface
+[1.456s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[1.466s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[1.467s] [ 29%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/chainable_controller_interface.cpp.o[0m
+[4.530s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.566s] [ 33%] Built target gmock_main
+[10.569s] [ 37%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[10.920s] [ 37%] Built target controller_interface
+[10.980s] [ 41%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.069s] [ 41%] Built target gmock
+[11.093s] [ 45%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[11.093s] [ 50%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[11.095s] [ 54%] [32mBuilding CXX object CMakeFiles/test_controller_interface.dir/test/test_controller_interface.cpp.o[0m
+[11.098s] [ 58%] [32mBuilding CXX object CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o[0m
+[11.102s] [ 62%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[11.105s] [ 66%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[11.106s] [ 70%] [32mBuilding CXX object CMakeFiles/test_pose_sensor.dir/test/test_pose_sensor.cpp.o[0m
+[16.300s] [ 75%] [32m[1mLinking CXX executable test_pose_sensor[0m
+[16.549s] [ 79%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[16.657s] [ 83%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[16.767s] [ 87%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[17.476s] [ 87%] Built target test_pose_sensor
+[17.723s] [ 87%] Built target test_force_torque_sensor
+[17.932s] [ 87%] Built target test_imu_sensor
+[18.034s] [ 87%] Built target test_semantic_component_interface
+[20.710s] [ 91%] [32m[1mLinking CXX executable test_controller_interface[0m
+[20.743s] [ 95%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[21.318s] [ 95%] Built target test_controller_with_options
+[21.411s] [ 95%] Built target test_controller_interface
+[21.896s] [100%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[22.197s] [100%] Built target test_chainable_controller_interface
+[22.205s] Invoked command in '/home/jowi/dev_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/controller_interface -- -j8 -l8
+[22.207s] Invoking command in '/home/jowi/dev_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/controller_interface
+[22.210s] -- Install configuration: ""
+[22.210s] -- Execute custom install script
+[22.211s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp
+[22.215s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[22.218s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp
+[22.223s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/controller_interface/helpers.hpp
+[22.227s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[22.231s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[22.235s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[22.239s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/semantic_components/pose_sensor.hpp
+[22.243s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/semantic_components/range_sensor.hpp
+[22.247s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[22.251s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/lib/libcontroller_interface.so
+[22.255s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[22.258s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[22.262s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[22.266s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[22.270s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[22.274s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[22.278s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[22.281s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[22.287s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[22.293s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[22.298s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[22.302s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[22.306s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/package.dsv
+[22.310s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[22.315s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.318s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.323s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[22.327s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[22.331s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[22.335s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/share/controller_interface/package.xml
+[22.339s] -- Symlinking: /home/jowi/dev_ws/install/controller_interface/include/controller_interface/controller_interface/version.h
+[22.346s] Invoked command in '/home/jowi/dev_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/controller_interface

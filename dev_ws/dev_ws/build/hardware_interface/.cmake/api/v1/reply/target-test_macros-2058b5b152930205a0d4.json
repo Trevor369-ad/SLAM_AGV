@@ -1,0 +1,456 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_macros"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_ament_add_gmock",
+			"ament_add_gmock",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/opt/ros/humble/src/gmock_vendor/CMakeLists.txt",
+			"/opt/ros/humble/share/rcpputils/cmake/rcpputilsExport.cmake",
+			"/opt/ros/humble/share/rcpputils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/humble/share/rcpputils/cmake/rcpputilsConfig.cmake",
+			"/opt/ros/humble/share/rosidl_typesupport_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/opt/ros/humble/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/action_msgs/cmake/action_msgsConfig.cmake",
+			"/home/jowi/dev_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/jowi/dev_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake",
+			"/opt/ros/humble/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/humble/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 145,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 14,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"file" : 13,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"file" : 12,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 15
+			},
+			{
+				"file" : 11,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"file" : 10,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 19
+			},
+			{
+				"file" : 9,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"file" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 23
+			},
+			{
+				"file" : 7,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"file" : 6,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 27
+			},
+			{
+				"file" : 5,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 29
+			},
+			{
+				"file" : 4,
+				"parent" : 30
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 56,
+				"parent" : 31
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"file" : 19,
+				"parent" : 33
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 41,
+				"parent" : 34
+			},
+			{
+				"file" : 18,
+				"parent" : 35
+			},
+			{
+				"command" : 7,
+				"file" : 18,
+				"line" : 21,
+				"parent" : 36
+			},
+			{
+				"file" : 17,
+				"parent" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 17,
+				"line" : 41,
+				"parent" : 38
+			},
+			{
+				"file" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 9,
+				"parent" : 40
+			},
+			{
+				"file" : 15,
+				"parent" : 41
+			},
+			{
+				"command" : 5,
+				"file" : 15,
+				"line" : 56,
+				"parent" : 42
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 44,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Werror=conversion"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Werror=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Werror=shadow"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 45,
+					"path" : "/home/jowi/dev_ws/src/ros2_control/hardware_interface/include"
+				},
+				{
+					"backtrace" : 46,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/src/gmock_vendor/include"
+				},
+				{
+					"backtrace" : 46,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/src/gtest_vendor/include"
+				},
+				{
+					"backtrace" : 47,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcpputils"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcutils"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "gmock::@0590522bda6a4df7f28a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gmock_main::@0590522bda6a4df7f28a"
+		}
+	],
+	"id" : "test_macros::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/humble/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "gmock/libgmock_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "gmock/libgmock.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/humble/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/opt/ros/humble/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_macros",
+	"nameOnDisk" : "test_macros",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_macros.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

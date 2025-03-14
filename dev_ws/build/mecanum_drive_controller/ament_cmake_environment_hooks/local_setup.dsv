@@ -1,0 +1,3 @@
+source;share/mecanum_drive_controller/environment/ament_prefix_path.sh
+source;share/mecanum_drive_controller/environment/library_path.sh
+source;share/mecanum_drive_controller/environment/path.sh

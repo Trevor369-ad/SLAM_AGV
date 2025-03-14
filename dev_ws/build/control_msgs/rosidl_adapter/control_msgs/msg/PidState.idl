@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/PidState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module msg {
+    struct PidState {
+      std_msgs::msg::Header header;
+
+      builtin_interfaces::msg::Duration timestep;
+
+      @verbatim (language="comment", text=
+        "error = target - state")
+      double error;
+
+      @verbatim (language="comment", text=
+        "derivative of error")
+      double error_dot;
+
+      @verbatim (language="comment", text=
+        "equals error")
+      double p_error;
+
+      @verbatim (language="comment", text=
+        "weighted integral of error")
+      double i_error;
+
+      @verbatim (language="comment", text=
+        "equals derivative of error")
+      double d_error;
+
+      @verbatim (language="comment", text=
+        "proportional gain")
+      double p_term;
+
+      @verbatim (language="comment", text=
+        "integral gain")
+      double i_term;
+
+      @verbatim (language="comment", text=
+        "derivative gain")
+      double d_term;
+
+      @verbatim (language="comment", text=
+        "upper integral clamp.")
+      double i_max;
+
+      @verbatim (language="comment", text=
+        "lower integral clamp.")
+      double i_min;
+
+      @verbatim (language="comment", text=
+        "output of the PID controller")
+      double output;
+    };
+  };
+};

@@ -1,0 +1,63 @@
+[0.014s] Invoking command in '/home/jowi/dev_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/transmission_interface -- -j8 -l8
+[0.045s] [  4%] Built target ament_generate_version_header__transmission_interface
+[0.050s] [ 12%] Built target gmock_main
+[0.055s] [ 25%] Built target gmock
+[0.082s] [ 29%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[0.091s] [ 33%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[0.091s] [ 37%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[0.091s] [ 41%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[0.091s] [ 45%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[0.093s] [ 50%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[0.099s] [ 54%] [32m[1mLinking CXX executable test_utils[0m
+[0.104s] [ 58%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[1.093s] [ 70%] Built target transmission_interface
+[2.012s] [ 75%] Built target test_differential_transmission
+[2.079s] [ 79%] Built target test_four_bar_linkage_transmission
+[2.133s] [ 83%] Built target test_simple_transmission
+[2.174s] [ 87%] Built target test_utils
+[2.468s] [ 91%] Built target test_differential_transmission_loader
+[2.478s] [ 95%] Built target test_simple_transmission_loader
+[2.533s] [100%] Built target test_four_bar_linkage_transmission_loader
+[2.548s] Invoked command in '/home/jowi/dev_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/transmission_interface -- -j8 -l8
+[2.554s] Invoking command in '/home/jowi/dev_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/transmission_interface
+[2.558s] -- Install configuration: ""
+[2.560s] -- Execute custom install script
+[2.561s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[2.562s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[2.563s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[2.565s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[2.565s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[2.565s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[2.565s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[2.565s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[2.566s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[2.566s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[2.566s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[2.566s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[2.566s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[2.567s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface//ros2_control_plugins.xml
+[2.570s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[2.572s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[2.573s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[2.573s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[2.574s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[2.574s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[2.575s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[2.576s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[2.576s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[2.579s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[2.579s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[2.580s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[2.581s] -- Symlinking: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[2.591s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[2.592s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[2.593s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.593s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.593s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.593s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[2.593s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[2.594s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/share/transmission_interface/package.xml
+[2.594s] -- Up-to-date symlink: /home/jowi/dev_ws/install/transmission_interface/include/transmission_interface/transmission_interface/version.h
+[2.597s] -- Installing: /home/jowi/dev_ws/install/transmission_interface/lib/libtransmission_interface.so
+[2.599s] -- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[2.603s] Invoked command in '/home/jowi/dev_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/transmission_interface

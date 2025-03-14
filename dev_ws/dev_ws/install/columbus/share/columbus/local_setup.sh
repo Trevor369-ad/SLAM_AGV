@@ -1,0 +1,1 @@
+/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,89 @@
+[0.028s] Invoking command in '/home/jowi/dev_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/effort_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/effort_controllers
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.630s] -- Found forward_command_controller: 2.42.1 (/home/jowi/dev_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.713s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.722s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.738s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.872s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.878s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.090s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.168s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.183s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.383s] -- Found Threads: TRUE  
+[1.951s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.952s] -- Found controller_manager: 2.48.0 (/home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake)
+[2.007s] -- Found ros2_control_test_assets: 2.48.0 (/home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.012s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.082s] -- The C compiler identification is GNU 11.4.0
+[2.094s] -- Detecting C compiler ABI info
+[2.264s] -- Detecting C compiler ABI info - done
+[2.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.289s] -- Detecting C compile features
+[2.289s] -- Detecting C compile features - done
+[2.297s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.298s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.451s] -- Configuring done (2.4s)
+[2.581s] -- Generating done (0.1s)
+[2.606s] -- Build files have been written to: /home/jowi/dev_ws/build/effort_controllers
+[2.624s] Invoked command in '/home/jowi/dev_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/effort_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/effort_controllers
+[2.626s] Invoking command in '/home/jowi/dev_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/effort_controllers -- -j8 -l8
+[2.660s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.661s] [ 18%] [32mBuilding CXX object CMakeFiles/effort_controllers.dir/src/joint_group_effort_controller.cpp.o[0m
+[2.663s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.663s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[5.415s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.439s] [ 45%] Built target gmock_main
+[8.256s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.313s] [ 54%] Built target gmock
+[8.860s] [ 63%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[9.285s] [ 63%] Built target effort_controllers
+[9.297s] [ 72%] [32mBuilding CXX object CMakeFiles/test_joint_group_effort_controller.dir/test/test_joint_group_effort_controller.cpp.o[0m
+[9.298s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_effort_controller.dir/test/test_load_joint_group_effort_controller.cpp.o[0m
+[16.286s] [ 90%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[18.594s] [100%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[20.106s] [100%] Built target test_load_joint_group_effort_controller
+[20.374s] [100%] Built target test_joint_group_effort_controller
+[20.382s] Invoked command in '/home/jowi/dev_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/effort_controllers -- -j8 -l8
+[20.385s] Invoking command in '/home/jowi/dev_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/effort_controllers
+[20.389s] -- Install configuration: ""
+[20.389s] -- Execute custom install script
+[20.390s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers//effort_controllers_plugins.xml
+[20.397s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/include/effort_controllers/effort_controllers/joint_group_effort_controller.hpp
+[20.402s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/include/effort_controllers/effort_controllers/visibility_control.h
+[20.407s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+[20.412s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+[20.417s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+[20.424s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+[20.429s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+[20.434s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+[20.439s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/environment/path.sh
+[20.444s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/environment/path.dsv
+[20.449s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/local_setup.bash
+[20.454s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/local_setup.sh
+[20.459s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/local_setup.zsh
+[20.464s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/local_setup.dsv
+[20.469s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/package.dsv
+[20.474s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+[20.479s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+[20.484s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[20.489s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.494s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+[20.500s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+[20.504s] -- Symlinking: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/package.xml
+[20.510s] -- Installing: /home/jowi/dev_ws/install/effort_controllers/lib/libeffort_controllers.so
+[20.510s] -- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/effort_controllers/lib/libeffort_controllers.so" to ""
+[20.512s] -- Installing: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+[20.512s] -- Installing: /home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake
+[20.514s] Invoked command in '/home/jowi/dev_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/effort_controllers

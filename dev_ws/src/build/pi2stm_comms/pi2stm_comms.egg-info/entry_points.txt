@@ -1,0 +1,3 @@
+[console_scripts]
+mecanum_controller_interface = pi2stm_comms.mecanum_controller_interface:main
+

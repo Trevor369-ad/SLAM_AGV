@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000673] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000692] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000707] (-) JobUnselected: {'identifier': 'columbus'}
+[0.000722] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000746] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000919] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000954] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000969] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.001002] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.001016] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.001031] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.001064] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.001077] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.001091] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.001105] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.001119] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.001133] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.001147] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.001161] (-) JobUnselected: {'identifier': 'parallel_gripper_controller'}
+[0.001175] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.001189] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.001203] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.001217] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.001231] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.001244] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.001258] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.001272] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.001285] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.001299] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.001313] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.001327] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.001340] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.001354] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.001367] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.001381] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001397] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/jowi/dev_ws/install/controller_manager_msgs'), ('joint_limits', '/home/jowi/dev_ws/install/joint_limits'), ('ros2_control_test_assets', '/home/jowi/dev_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/jowi/dev_ws/install/hardware_interface'), ('controller_interface', '/home/jowi/dev_ws/install/controller_interface'), ('hardware_interface_testing', '/home/jowi/dev_ws/install/hardware_interface_testing'), ('controller_manager', '/home/jowi/dev_ws/install/controller_manager')])}
+[0.001428] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[0.013978] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 1}
+[0.024589] (-) EventReactorShutdown: {}

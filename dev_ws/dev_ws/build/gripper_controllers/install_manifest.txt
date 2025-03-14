@@ -1,0 +1,3 @@
+/home/jowi/dev_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+/home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport.cmake
+/home/jowi/dev_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport-noconfig.cmake

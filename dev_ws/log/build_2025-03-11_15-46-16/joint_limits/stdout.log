@@ -1,0 +1,139 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jowi/dev_ws/build/joint_limits
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 17%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 17%] [34m[1mGenerating joint_limits/version.h[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/joint_limits_helpers.dir/src/joint_limits_helpers.cpp.o[0m
+[ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/joint_limiter_interface.dir/src/joint_limiter_interface.cpp.o[0m
+[ 28%] Built target ament_generate_version_header__joint_limits
+[ 32%] [32m[1mLinking CXX shared library libjoint_limits_helpers.so[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 35%] Built target gtest_main
+[ 35%] Built target joint_limits_helpers
+[ 39%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_saturation_limiter.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_range_limiter.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_soft_limiter.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 50%] Built target gmock_main
+[ 53%] [32m[1mLinking CXX shared library libjoint_limiter_interface.so[0m
+[ 57%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 57%] Built target joint_limiter_interface
+[ 57%] Built target gmock
+[ 60%] [32mBuilding CXX object CMakeFiles/test_joint_saturation_limiter.dir/test/test_joint_saturation_limiter.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/test_joint_range_limiter.dir/test/test_joint_range_limiter.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/test_joint_soft_limiter.dir/test/test_joint_soft_limiter.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libjoint_saturation_limiter.so[0m
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[ 82%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[ 82%] Built target joint_saturation_limiter
+[ 85%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[ 85%] Built target joint_limits_urdf_test
+[ 89%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[ 89%] Built target joint_limits_rosparam_test
+[ 92%] [32m[1mLinking CXX executable test_joint_range_limiter[0m
+[ 92%] Built target test_joint_range_limiter
+[ 96%] [32m[1mLinking CXX executable test_joint_saturation_limiter[0m
+[100%] [32m[1mLinking CXX executable test_joint_soft_limiter[0m
+[100%] Built target test_joint_saturation_limiter
+[100%] Built target test_joint_soft_limiter
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits//joint_limiters.xml
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/test/joint_saturation_limiter_param.yaml
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/data_structures.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limiter_interface.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_helpers.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_saturation_limiter.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/joint_soft_limiter.hpp
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/environment/library_path.sh
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/environment/library_path.dsv
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/environment/path.sh
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/local_setup.bash
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/local_setup.sh
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/package.dsv
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/ament_index/resource_index/joint_limits__pluginlib__plugin/joint_limits
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/package.xml
+-- Symlinking: /home/jowi/dev_ws/install/joint_limits/include/joint_limits/joint_limits/version.h
+-- Installing: /home/jowi/dev_ws/install/joint_limits/lib/libjoint_limiter_interface.so
+-- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/joint_limits/lib/libjoint_limiter_interface.so" to ""
+-- Installing: /home/jowi/dev_ws/install/joint_limits/lib/libjoint_saturation_limiter.so
+-- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/joint_limits/lib/libjoint_saturation_limiter.so" to ""
+-- Installing: /home/jowi/dev_ws/install/joint_limits/lib/libjoint_limits_helpers.so
+-- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/joint_limits/lib/libjoint_limits_helpers.so" to ""
+-- Installing: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+-- Installing: /home/jowi/dev_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-noconfig.cmake

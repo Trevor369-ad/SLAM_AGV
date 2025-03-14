@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "controller_manager_msgs__py",
+		"source" : "/home/jowi/dev_ws/build/controller_manager_msgs/controller_manager_msgs__py"
+	}
+}

@@ -1,0 +1,265 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-beee7913aaa9242e6e71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hardware_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_generate_version_header__hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_generate_version_header__hardware_interface-d571d4665620cbb0dfb7.json",
+					"name" : "ament_generate_version_header__hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_components-e0d6a7a84011f55a688c.json",
+					"name" : "fake_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-53c2b5f563e5b32334a6.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-82c4a9303f8cda689070.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-87bcffd4988a7d8b8e50.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-adc2821291cdebb89d86.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardware_interface-ccc3192511253f6a3b63.json",
+					"name" : "hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardware_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardware_interface_uninstall-bebdbabf70f5fbf99abf.json",
+					"name" : "hardware_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mock_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mock_components-5376dcc02bedacf0a42f.json",
+					"name" : "mock_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_component_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_component_interfaces-9eea6ef77f5c81b99c59.json",
+					"name" : "test_component_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_component_parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_component_parser-a5b118b856b80a7e05c0.json",
+					"name" : "test_component_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_generic_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_generic_system-ced1ddb72cd0ba99f22f.json",
+					"name" : "test_generic_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_hardware_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_hardware_components-b5696c9c2cd723bd84c0.json",
+					"name" : "test_hardware_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_inst_hardwares::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_inst_hardwares-dfb4748d143c3de9a9c2.json",
+					"name" : "test_inst_hardwares",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_joint_handle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_joint_handle-8eb342bf9fa461ee8f73.json",
+					"name" : "test_joint_handle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_macros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_macros-2058b5b152930205a0d4.json",
+					"name" : "test_macros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-755d5cdb6a005df3e7c9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jowi/dev_ws/build/hardware_interface",
+		"source" : "/home/jowi/dev_ws/src/ros2_control/hardware_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,3 @@
+source;share/joint_limits/environment/ament_prefix_path.sh
+source;share/joint_limits/environment/library_path.sh
+source;share/joint_limits/environment/path.sh

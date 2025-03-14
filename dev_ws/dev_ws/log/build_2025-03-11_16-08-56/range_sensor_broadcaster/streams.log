@@ -1,0 +1,100 @@
+[0.023s] Invoking command in '/home/jowi/dev_ws/build/range_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/range_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/range_sensor_broadcaster
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.489s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.603s] -- Found controller_interface: 2.48.0 (/home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake)
+[0.661s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.669s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.042s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.045s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.077s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.121s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.125s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.143s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.147s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.156s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.168s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.273s] -- Found Threads: TRUE  
+[1.349s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.351s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.370s] -- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.407s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.408s] -- Found controller_manager: 2.48.0 (/home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake)
+[1.445s] -- Found ros2_control_test_assets: 2.48.0 (/home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.448s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.453s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.454s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.488s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.489s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.490s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.594s] -- Configuring done (1.6s)
+[1.695s] -- Generating done (0.1s)
+[1.714s] -- Build files have been written to: /home/jowi/dev_ws/build/range_sensor_broadcaster
+[1.727s] Invoked command in '/home/jowi/dev_ws/build/range_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/range_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/range_sensor_broadcaster
+[1.729s] Invoking command in '/home/jowi/dev_ws/build/range_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/range_sensor_broadcaster -- -j8 -l8
+[1.757s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.757s] [ 27%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jowi/dev_ws/build/range_sensor_broadcaster/include/range_sensor_broadcaster/range_sensor_broadcaster_parameters.hpp /home/jowi/dev_ws/src/ros2_controllers/range_sensor_broadcaster/src/range_sensor_broadcaster_parameters.yaml `[0m
+[1.758s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.119s] [ 36%] [34m[1mCreating deprecated header file /home/jowi/dev_ws/build/range_sensor_broadcaster/include/range_sensor_broadcaster_parameters.hpp[0m
+[2.142s] [ 36%] Built target range_sensor_broadcaster_parameters
+[2.156s] [ 45%] [32mBuilding CXX object CMakeFiles/range_sensor_broadcaster.dir/src/range_sensor_broadcaster.cpp.o[0m
+[7.068s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.181s] [ 54%] Built target gmock
+[9.841s] [ 63%] [32m[1mLinking CXX shared library librange_sensor_broadcaster.so[0m
+[10.197s] [ 63%] Built target range_sensor_broadcaster
+[10.211s] [ 81%] [32mBuilding CXX object CMakeFiles/test_range_sensor_broadcaster.dir/test/test_range_sensor_broadcaster.cpp.o[0m
+[10.211s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_range_sensor_broadcaster.dir/test/test_load_range_sensor_broadcaster.cpp.o[0m
+[16.870s] [ 90%] [32m[1mLinking CXX executable test_load_range_sensor_broadcaster[0m
+[18.610s] [ 90%] Built target test_load_range_sensor_broadcaster
+[22.805s] [100%] [32m[1mLinking CXX executable test_range_sensor_broadcaster[0m
+[23.838s] [100%] Built target test_range_sensor_broadcaster
+[23.845s] Invoked command in '/home/jowi/dev_ws/build/range_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/range_sensor_broadcaster -- -j8 -l8
+[23.846s] Invoking command in '/home/jowi/dev_ws/build/range_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/range_sensor_broadcaster
+[23.850s] -- Install configuration: ""
+[23.850s] -- Execute custom install script
+[23.851s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/include/range_sensor_broadcaster/range_sensor_broadcaster_parameters.hpp
+[23.855s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster//range_sensor_broadcaster.xml
+[23.858s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/include/range_sensor_broadcaster/range_sensor_broadcaster.hpp
+[23.862s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/include/range_sensor_broadcaster/visibility_control.h
+[23.866s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/environment/library_path.sh
+[23.869s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/environment/library_path.dsv
+[23.873s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/range_sensor_broadcaster
+[23.877s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/range_sensor_broadcaster
+[23.881s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/environment/ament_prefix_path.sh
+[23.884s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/environment/ament_prefix_path.dsv
+[23.888s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/environment/path.sh
+[23.892s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/environment/path.dsv
+[23.896s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/local_setup.bash
+[23.900s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/local_setup.sh
+[23.904s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/local_setup.zsh
+[23.908s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/local_setup.dsv
+[23.911s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/package.dsv
+[23.915s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/ament_index/resource_index/packages/range_sensor_broadcaster
+[23.920s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/range_sensor_broadcaster
+[23.924s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.928s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[23.932s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/cmake/range_sensor_broadcasterConfig.cmake
+[23.936s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/cmake/range_sensor_broadcasterConfig-version.cmake
+[23.940s] -- Symlinking: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/package.xml
+[23.944s] -- Installing: /home/jowi/dev_ws/install/range_sensor_broadcaster/lib/librange_sensor_broadcaster.so
+[23.947s] -- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/range_sensor_broadcaster/lib/librange_sensor_broadcaster.so" to ""
+[23.948s] -- Installing: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/cmake/export_range_sensor_broadcasterExport.cmake
+[23.948s] -- Installing: /home/jowi/dev_ws/install/range_sensor_broadcaster/share/range_sensor_broadcaster/cmake/export_range_sensor_broadcasterExport-noconfig.cmake
+[23.951s] Invoked command in '/home/jowi/dev_ws/build/range_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/range_sensor_broadcaster

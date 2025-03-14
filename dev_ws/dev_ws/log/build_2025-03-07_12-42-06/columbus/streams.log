@@ -1,0 +1,51 @@
+[0.014s] Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jowi/dev_ws/src/columbus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/columbus
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.524s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.642s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.648s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.649s] -- Added test 'lint_cmake' to check CMake code style
+[0.650s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.653s] -- Added test 'xmllint' to check XML markup files
+[0.654s] -- Configuring done (0.6s)
+[0.656s] -- Generating done (0.0s)
+[0.658s] -- Build files have been written to: /home/jowi/dev_ws/build/columbus
+[0.663s] Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jowi/dev_ws/src/columbus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/columbus
+[0.664s] Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/columbus -- -j8 -l8
+[0.683s] Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/columbus -- -j8 -l8
+[0.688s] Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/columbus
+[0.690s] -- Install configuration: ""
+[0.690s] -- Execute custom install script
+[0.691s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/config/empty.yaml
+[0.694s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/description/robot.urdf.xacro
+[0.698s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/launch/rsp.launch.py
+[0.701s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/worlds/empty.world
+[0.704s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/package_run_dependencies/columbus
+[0.708s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/parent_prefix_path/columbus
+[0.711s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/environment/ament_prefix_path.sh
+[0.714s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/environment/ament_prefix_path.dsv
+[0.717s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/environment/path.sh
+[0.721s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/environment/path.dsv
+[0.724s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.bash
+[0.728s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.sh
+[0.732s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.zsh
+[0.735s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.dsv
+[0.738s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/package.dsv
+[0.742s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/packages/columbus
+[0.745s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/cmake/columbusConfig.cmake
+[0.748s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/cmake/columbusConfig-version.cmake
+[0.752s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/package.xml
+[0.757s] Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/columbus

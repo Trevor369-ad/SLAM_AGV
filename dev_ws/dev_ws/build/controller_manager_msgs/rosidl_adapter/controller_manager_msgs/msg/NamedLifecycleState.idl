@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from controller_manager_msgs/msg/NamedLifecycleState.msg
+// generated code does not contain a copyright notice
+
+#include "lifecycle_msgs/msg/State.idl"
+
+module controller_manager_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message is used to provide information about the lifecycle state of the controller or the hardware components")
+    struct NamedLifecycleState {
+      @verbatim (language="comment", text=
+        "The name of the controller or hardware interface")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The current lifecycle state of the controller or hardware components")
+      lifecycle_msgs::msg::State state;
+    };
+  };
+};

@@ -1,0 +1,87 @@
+[0.030s] Invoking command in '/home/jowi/dev_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_control/hardware_interface_testing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/hardware_interface_testing
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.232s] -- Detecting CXX compiler ABI info
+[0.434s] -- Detecting CXX compiler ABI info - done
+[0.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.494s] -- Detecting CXX compile features
+[0.494s] -- Detecting CXX compile features - done
+[0.506s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.037s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.093s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.158s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.168s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.183s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found hardware_interface: 2.48.0 (/home/jowi/dev_ws/install/hardware_interface/share/hardware_interface/cmake)
+[1.860s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.867s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.942s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.038s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.045s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.087s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.097s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.117s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.143s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.341s] -- Found Threads: TRUE  
+[2.504s] -- Found ros2_control_test_assets: 2.48.0 (/home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.526s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.530s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.626s] -- The C compiler identification is GNU 11.4.0
+[2.642s] -- Detecting C compiler ABI info
+[2.775s] -- Detecting C compiler ABI info - done
+[2.814s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.814s] -- Detecting C compile features
+[2.817s] -- Detecting C compile features - done
+[2.824s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.826s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.987s] -- Configuring done (3.0s)
+[3.110s] -- Generating done (0.1s)
+[3.131s] -- Build files have been written to: /home/jowi/dev_ws/build/hardware_interface_testing
+[3.157s] Invoked command in '/home/jowi/dev_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_control/hardware_interface_testing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/hardware_interface_testing
+[3.161s] Invoking command in '/home/jowi/dev_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/hardware_interface_testing -- -j8 -l8
+[3.212s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.212s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.212s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.215s] [ 38%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_sensor.cpp.o[0m
+[3.216s] [ 38%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_actuator.cpp.o[0m
+[3.216s] [ 46%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_system.cpp.o[0m
+[6.962s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.674s] [ 53%] Built target gmock_main
+[7.839s] [ 61%] [32m[1mLinking CXX shared library libtest_components.so[0m
+[8.232s] [ 61%] Built target test_components
+[12.288s] [ 69%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.930s] [ 69%] Built target gmock
+[12.956s] [ 76%] [32mBuilding CXX object CMakeFiles/test_resource_manager.dir/test/test_resource_manager.cpp.o[0m
+[12.972s] [ 84%] [32mBuilding CXX object CMakeFiles/test_resource_manager_prepare_perform_switch.dir/test/test_resource_manager_prepare_perform_switch.cpp.o[0m
+[17.361s] [ 92%] [32m[1mLinking CXX executable test_resource_manager_prepare_perform_switch[0m
+[18.187s] [ 92%] Built target test_resource_manager_prepare_perform_switch
+[19.621s] [100%] [32m[1mLinking CXX executable test_resource_manager[0m
+[20.084s] [100%] Built target test_resource_manager
+[20.090s] Invoked command in '/home/jowi/dev_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/hardware_interface_testing -- -j8 -l8
+[20.091s] Invoking command in '/home/jowi/dev_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/hardware_interface_testing
+[20.095s] -- Install configuration: ""
+[20.095s] -- Execute custom install script
+[20.096s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/lib/libtest_components.so
+[20.100s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/test/test_components/test_components.xml
+[20.103s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/ament_index/resource_index/package_run_dependencies/hardware_interface_testing
+[20.107s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/ament_index/resource_index/parent_prefix_path/hardware_interface_testing
+[20.111s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.sh
+[20.114s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.dsv
+[20.119s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.sh
+[20.124s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.dsv
+[20.128s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.bash
+[20.133s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.sh
+[20.136s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.zsh
+[20.140s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.dsv
+[20.144s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/package.dsv
+[20.148s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/ament_index/resource_index/packages/hardware_interface_testing
+[20.152s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface_testing
+[20.156s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.160s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig.cmake
+[20.164s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig-version.cmake
+[20.168s] -- Symlinking: /home/jowi/dev_ws/install/hardware_interface_testing/share/hardware_interface_testing/package.xml
+[20.174s] Invoked command in '/home/jowi/dev_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/hardware_interface_testing

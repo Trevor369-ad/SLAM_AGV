@@ -1,0 +1,24 @@
+[0.868s] Invoking command in '/home/jowi/dev_ws/build/joy_tester': PYTHONPATH=/home/jowi/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jowi/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jowi/dev_ws/build/joy_tester/build --no-deps symlink_data
+[1.203s] running develop
+[1.447s] running egg_info
+[1.447s] creating joy_tester.egg-info
+[1.459s] writing joy_tester.egg-info/PKG-INFO
+[1.459s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[1.459s] writing entry points to joy_tester.egg-info/entry_points.txt
+[1.460s] writing requirements to joy_tester.egg-info/requires.txt
+[1.460s] writing top-level names to joy_tester.egg-info/top_level.txt
+[1.460s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.463s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.463s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.465s] running build_ext
+[1.466s] Creating /home/jowi/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+[1.467s] Installing test_joy script to /home/jowi/dev_ws/install/joy_tester/lib/joy_tester
+[1.467s] 
+[1.467s] Installed /home/jowi/dev_ws/build/joy_tester
+[1.467s] running symlink_data
+[1.468s] creating /home/jowi/dev_ws/install/joy_tester/share/ament_index
+[1.468s] creating /home/jowi/dev_ws/install/joy_tester/share/ament_index/resource_index
+[1.468s] creating /home/jowi/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+[1.468s] symbolically linking /home/jowi/dev_ws/build/joy_tester/resource/joy_tester -> /home/jowi/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+[1.468s] symbolically linking /home/jowi/dev_ws/build/joy_tester/package.xml -> /home/jowi/dev_ws/install/joy_tester/share/joy_tester
+[1.498s] Invoked command in '/home/jowi/dev_ws/build/joy_tester' returned '0': PYTHONPATH=/home/jowi/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jowi/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jowi/dev_ws/build/joy_tester/build --no-deps symlink_data

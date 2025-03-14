@@ -1,0 +1,31 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jowi/dev_ws/build/ros2_control_test_assets
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jowi/dev_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+-- Symlinking: /home/jowi/dev_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+-- Symlinking: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+-- Symlinking: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml

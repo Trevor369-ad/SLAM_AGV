@@ -1,0 +1,107 @@
+[0.020s] Invoking command in '/home/jowi/dev_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/admittance_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/admittance_controller
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.216s] -- Detecting CXX compile features - done
+[0.219s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.553s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.557s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.609s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.617s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.629s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.913s] -- Found control_toolbox: 3.6.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.983s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.987s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.118s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.163s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.228s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.420s] -- Found Threads: TRUE  
+[1.671s] -- Found controller_interface: 2.48.0 (/home/jowi/dev_ws/install/controller_interface/share/controller_interface/cmake)
+[1.702s] -- Found kinematics_interface: 0.3.0 (/opt/ros/humble/share/kinematics_interface/cmake)
+[1.711s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.720s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.833s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.846s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.848s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.848s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.853s] -- Found tf2_kdl: 0.25.12 (/opt/ros/humble/share/tf2_kdl/cmake)
+[1.893s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.894s] -- Found controller_manager: 2.48.0 (/home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake)
+[1.939s] -- Found ros2_control_test_assets: 2.48.0 (/home/jowi/dev_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.949s] -- Found kinematics_interface_kdl: 0.3.0 (/opt/ros/humble/share/kinematics_interface_kdl/cmake)
+[1.969s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.018s] -- The C compiler identification is GNU 11.4.0
+[2.027s] -- Detecting C compiler ABI info
+[2.128s] -- Detecting C compiler ABI info - done
+[2.146s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.146s] -- Detecting C compile features
+[2.147s] -- Detecting C compile features - done
+[2.152s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.153s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.195s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.195s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.196s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.307s] -- Configuring done (2.3s)
+[2.375s] -- Generating done (0.0s)
+[2.387s] -- Build files have been written to: /home/jowi/dev_ws/build/admittance_controller
+[2.404s] Invoked command in '/home/jowi/dev_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jowi/dev_ws/src/ros2_controllers/admittance_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jowi/dev_ws/install/admittance_controller
+[2.405s] Invoking command in '/home/jowi/dev_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/admittance_controller -- -j8 -l8
+[2.435s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.435s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.435s] [ 27%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jowi/dev_ws/build/admittance_controller/include/admittance_controller/admittance_controller_parameters.hpp /home/jowi/dev_ws/src/ros2_controllers/admittance_controller/src/admittance_controller_parameters.yaml `[0m
+[3.358s] [ 36%] [34m[1mCreating deprecated header file /home/jowi/dev_ws/build/admittance_controller/include/admittance_controller_parameters.hpp[0m
+[3.384s] [ 36%] Built target admittance_controller_parameters
+[3.400s] [ 45%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o[0m
+[6.830s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.886s] [ 54%] Built target gmock
+[6.900s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_admittance_controller.dir/test/test_load_admittance_controller.cpp.o[0m
+[14.932s] [ 72%] [32m[1mLinking CXX executable test_load_admittance_controller[0m
+[16.601s] [ 72%] Built target test_load_admittance_controller
+[29.489s] [ 81%] [32m[1mLinking CXX shared library libadmittance_controller.so[0m
+[30.641s] [ 81%] Built target admittance_controller
+[30.653s] [ 90%] [32mBuilding CXX object CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o[0m
+[50.803s] [100%] [32m[1mLinking CXX executable test_admittance_controller[0m
+[52.662s] [100%] Built target test_admittance_controller
+[52.670s] Invoked command in '/home/jowi/dev_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/admittance_controller -- -j8 -l8
+[52.671s] Invoking command in '/home/jowi/dev_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/admittance_controller
+[52.674s] -- Install configuration: ""
+[52.675s] -- Execute custom install script
+[52.675s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/include/admittance_controller/admittance_controller_parameters.hpp
+[52.679s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller//admittance_controller.xml
+[52.683s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_controller.hpp
+[52.687s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_rule.hpp
+[52.691s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_rule_impl.hpp
+[52.694s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/include/admittance_controller/admittance_controller/visibility_control.h
+[52.698s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/environment/library_path.sh
+[52.702s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/environment/library_path.dsv
+[52.706s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/ament_index/resource_index/package_run_dependencies/admittance_controller
+[52.710s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/ament_index/resource_index/parent_prefix_path/admittance_controller
+[52.713s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/environment/ament_prefix_path.sh
+[52.717s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/environment/ament_prefix_path.dsv
+[52.721s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/environment/path.sh
+[52.725s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/environment/path.dsv
+[52.729s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/local_setup.bash
+[52.733s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/local_setup.sh
+[52.737s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/local_setup.zsh
+[52.742s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/local_setup.dsv
+[52.746s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/package.dsv
+[52.750s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/ament_index/resource_index/packages/admittance_controller
+[52.754s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/admittance_controller
+[52.758s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.762s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/cmake/ament_cmake_export_targets-extras.cmake
+[52.767s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/cmake/admittance_controllerConfig.cmake
+[52.771s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/cmake/admittance_controllerConfig-version.cmake
+[52.775s] -- Symlinking: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/package.xml
+[52.780s] -- Installing: /home/jowi/dev_ws/install/admittance_controller/lib/libadmittance_controller.so
+[52.791s] -- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/admittance_controller/lib/libadmittance_controller.so" to ""
+[52.792s] -- Installing: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/cmake/export_admittance_controllerExport.cmake
+[52.792s] -- Installing: /home/jowi/dev_ws/install/admittance_controller/share/admittance_controller/cmake/export_admittance_controllerExport-noconfig.cmake
+[52.794s] Invoked command in '/home/jowi/dev_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/admittance_controller

@@ -1,0 +1,4 @@
+source;share/gpio_controllers/local_setup.bash
+source;share/gpio_controllers/local_setup.dsv
+source;share/gpio_controllers/local_setup.sh
+source;share/gpio_controllers/local_setup.zsh

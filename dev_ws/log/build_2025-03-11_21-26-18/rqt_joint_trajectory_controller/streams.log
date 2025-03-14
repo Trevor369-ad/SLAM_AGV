@@ -1,0 +1,17 @@
+[0.887s] Invoking command in '/home/jowi/dev_ws/build/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jowi/dev_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jowi/dev_ws/build/rqt_joint_trajectory_controller/build --no-deps symlink_data
+[1.280s] running develop
+[1.850s] running egg_info
+[1.863s] writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[1.864s] writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[1.865s] writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[1.865s] writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+[1.865s] writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+[1.869s] reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[1.872s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[1.876s] running build_ext
+[1.877s] Creating /home/jowi/dev_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[1.879s] Installing rqt_joint_trajectory_controller script to /home/jowi/dev_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[1.879s] 
+[1.879s] Installed /home/jowi/dev_ws/build/rqt_joint_trajectory_controller
+[1.879s] running symlink_data
+[1.971s] Invoked command in '/home/jowi/dev_ws/build/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs LD_LIBRARY_PATH=/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jowi/dev_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jowi/dev_ws/build/rqt_joint_trajectory_controller/build --no-deps symlink_data

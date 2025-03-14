@@ -1,0 +1,39 @@
+[ 15%] Built target pose_broadcaster_parameters
+[ 30%] Built target gmock_main
+[ 53%] Built target gmock
+[ 61%] [32m[1mLinking CXX shared library libpose_broadcaster.so[0m
+[ 69%] Built target pose_broadcaster
+[ 84%] [32m[1mLinking CXX executable test_load_pose_broadcaster[0m
+[ 84%] [32m[1mLinking CXX executable test_pose_broadcaster[0m
+[ 92%] Built target test_load_pose_broadcaster
+[100%] Built target test_pose_broadcaster
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/include/pose_broadcaster/pose_broadcaster_parameters.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster//pose_broadcaster.xml
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/include/pose_broadcaster/pose_broadcaster/pose_broadcaster.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/include/pose_broadcaster/pose_broadcaster/visibility_control.h
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/environment/library_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/environment/library_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/ament_index/resource_index/package_run_dependencies/pose_broadcaster
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/ament_index/resource_index/parent_prefix_path/pose_broadcaster
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/environment/path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/environment/path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.bash
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.zsh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.dsv
+-- Symlinking: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/package.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/ament_index/resource_index/packages/pose_broadcaster
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pose_broadcaster
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/pose_broadcasterConfig.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/pose_broadcasterConfig-version.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/package.xml
+-- Installing: /home/jowi/dev_ws/install/pose_broadcaster/lib/libpose_broadcaster.so
+-- Set non-toolchain portion of runtime path of "/home/jowi/dev_ws/install/pose_broadcaster/lib/libpose_broadcaster.so" to ""
+-- Up-to-date: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport.cmake
+-- Up-to-date: /home/jowi/dev_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport-noconfig.cmake

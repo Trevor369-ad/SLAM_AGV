@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating pi2stm_comms.egg-info
+writing pi2stm_comms.egg-info/PKG-INFO
+writing dependency_links to pi2stm_comms.egg-info/dependency_links.txt
+writing entry points to pi2stm_comms.egg-info/entry_points.txt
+writing requirements to pi2stm_comms.egg-info/requires.txt
+writing top-level names to pi2stm_comms.egg-info/top_level.txt
+writing manifest file 'pi2stm_comms.egg-info/SOURCES.txt'
+reading manifest file 'pi2stm_comms.egg-info/SOURCES.txt'
+writing manifest file 'pi2stm_comms.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jowi/dev_ws/install/pi2stm_comms/lib/python3.10/site-packages/pi2stm-comms.egg-link (link to .)
+Installing mecanum_controller_interface script to /home/jowi/dev_ws/install/pi2stm_comms/lib/pi2stm_comms
+
+Installed /home/jowi/dev_ws/build/pi2stm_comms
+running symlink_data
+creating /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index
+creating /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index/resource_index
+creating /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index/resource_index/packages
+symbolically linking /home/jowi/dev_ws/build/pi2stm_comms/resource/pi2stm_comms -> /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index/resource_index/packages
+symbolically linking /home/jowi/dev_ws/build/pi2stm_comms/package.xml -> /home/jowi/dev_ws/install/pi2stm_comms/share/pi2stm_comms

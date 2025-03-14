@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating joy_tester.egg-info
+writing joy_tester.egg-info/PKG-INFO
+writing dependency_links to joy_tester.egg-info/dependency_links.txt
+writing entry points to joy_tester.egg-info/entry_points.txt
+writing requirements to joy_tester.egg-info/requires.txt
+writing top-level names to joy_tester.egg-info/top_level.txt
+writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jowi/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+Installing test_joy script to /home/jowi/dev_ws/install/joy_tester/lib/joy_tester
+
+Installed /home/jowi/dev_ws/build/joy_tester
+running symlink_data
+creating /home/jowi/dev_ws/install/joy_tester/share/ament_index
+creating /home/jowi/dev_ws/install/joy_tester/share/ament_index/resource_index
+creating /home/jowi/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+symbolically linking /home/jowi/dev_ws/build/joy_tester/resource/joy_tester -> /home/jowi/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+symbolically linking /home/jowi/dev_ws/build/joy_tester/package.xml -> /home/jowi/dev_ws/install/joy_tester/share/joy_tester

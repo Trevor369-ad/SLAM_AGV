@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/columbus -- -j8 -l8
+[0.028s] Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/columbus -- -j8 -l8
+[0.030s] Invoking command in '/home/jowi/dev_ws/build/columbus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/columbus
+[0.033s] -- Install configuration: ""
+[0.034s] -- Execute custom install script
+[0.035s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/drive_bot.rviz
+[0.035s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/empty.yaml
+[0.035s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/my_controllers.yaml
+[0.035s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/view_bot.rviz
+[0.037s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/gazebo_control.xacro
+[0.037s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/inertial_macros.xacro
+[0.037s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/robot.urdf.xacro
+[0.037s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/robot_core.xacro
+[0.037s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/ros2_control.xacro
+[0.038s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/launch/launch_sim.launch.py
+[0.038s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/launch/rsp.launch.py
+[0.038s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/worlds/empty.world
+[0.039s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/worlds/obstacles.world
+[0.039s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/package_run_dependencies/columbus
+[0.039s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/parent_prefix_path/columbus
+[0.040s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/ament_prefix_path.sh
+[0.040s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/ament_prefix_path.dsv
+[0.040s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/path.sh
+[0.040s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/path.dsv
+[0.041s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.bash
+[0.041s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.sh
+[0.041s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.zsh
+[0.042s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.dsv
+[0.042s] -- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/package.dsv
+[0.046s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/packages/columbus
+[0.046s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/cmake/columbusConfig.cmake
+[0.046s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/cmake/columbusConfig-version.cmake
+[0.047s] -- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/package.xml
+[0.049s] Invoked command in '/home/jowi/dev_ws/build/columbus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/columbus

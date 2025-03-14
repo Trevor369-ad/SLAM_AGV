@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.003134] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.005090] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.005874] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.006279] (-) JobUnselected: {'identifier': 'columbus'}
+[0.006635] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.006740] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.006770] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.006797] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.006821] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.006842] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.006863] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.006889] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.006912] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.006937] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.006959] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.006979] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.007007] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.007044] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.007079] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.007108] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.007199] (-) JobUnselected: {'identifier': 'joy_tester'}
+[0.007284] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.007307] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.007327] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.007345] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.007364] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.007382] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.007400] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.007445] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.007475] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.007527] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.007613] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.007694] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.007715] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.007734] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.007753] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.007771] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.007790] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.007808] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.007832] (pi2stm_comms) JobQueued: {'identifier': 'pi2stm_comms', 'dependencies': OrderedDict()}
+[0.007858] (pi2stm_comms) JobStarted: {'identifier': 'pi2stm_comms'}
+[0.098118] (-) TimerEvent: {}
+[0.200446] (-) TimerEvent: {}
+[0.300731] (-) TimerEvent: {}
+[0.401464] (-) TimerEvent: {}
+[0.503323] (-) TimerEvent: {}
+[0.603999] (-) TimerEvent: {}
+[0.704770] (-) TimerEvent: {}
+[0.806632] (-) TimerEvent: {}
+[0.907118] (-) TimerEvent: {}
+[1.007636] (-) TimerEvent: {}
+[1.109299] (-) TimerEvent: {}
+[1.209734] (-) TimerEvent: {}
+[1.310320] (-) TimerEvent: {}
+[1.411853] (-) TimerEvent: {}
+[1.512240] (-) TimerEvent: {}
+[1.612669] (-) TimerEvent: {}
+[1.713209] (-) TimerEvent: {}
+[1.814615] (-) TimerEvent: {}
+[1.914888] (-) TimerEvent: {}
+[2.015592] (-) TimerEvent: {}
+[2.117428] (-) TimerEvent: {}
+[2.217802] (-) TimerEvent: {}
+[2.318496] (-) TimerEvent: {}
+[2.420206] (-) TimerEvent: {}
+[2.521385] (-) TimerEvent: {}
+[2.621942] (-) TimerEvent: {}
+[2.723815] (-) TimerEvent: {}
+[2.763256] (pi2stm_comms) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jowi/dev_ws/build/pi2stm_comms/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jowi/dev_ws/build/pi2stm_comms', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,250590,0', 'LANGUAGE': 'en_GB:en', 'USER': 'jowi', 'LC_TIME': 'en_GB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jowi/dev_ws/install/velocity_controllers/lib:/home/jowi/dev_ws/install/tricycle_steering_controller/lib:/home/jowi/dev_ws/install/tricycle_controller/lib:/home/jowi/dev_ws/install/transmission_interface/lib:/home/jowi/dev_ws/install/bicycle_steering_controller/lib:/home/jowi/dev_ws/install/ackermann_steering_controller/lib:/home/jowi/dev_ws/install/steering_controllers_library/lib:/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_manager/lib:/home/jowi/dev_ws/install/range_sensor_broadcaster/lib:/home/jowi/dev_ws/install/position_controllers/lib:/home/jowi/dev_ws/install/pose_broadcaster/lib:/home/jowi/dev_ws/install/pid_controller/lib:/home/jowi/dev_ws/install/mecanum_drive_controller/lib:/home/jowi/dev_ws/install/joint_trajectory_controller/lib:/home/jowi/dev_ws/install/joint_state_broadcaster/lib:/home/jowi/dev_ws/install/joint_limits/lib:/home/jowi/dev_ws/install/imu_sensor_broadcaster/lib:/home/jowi/dev_ws/install/gripper_controllers/lib:/home/jowi/dev_ws/install/gpio_controllers/lib:/home/jowi/dev_ws/install/effort_controllers/lib:/home/jowi/dev_ws/install/forward_command_controller/lib:/home/jowi/dev_ws/install/force_torque_sensor_broadcaster/lib:/home/jowi/dev_ws/install/diff_drive_controller/lib:/home/jowi/dev_ws/install/admittance_controller/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jowi', 'OLDPWD': '/home/jowi', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jowi/.nvm/versions/node/v20.9.0/bin', 'NVM_INC': '/home/jowi/.nvm/versions/node/v20.9.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'SYSTEMD_EXEC_PID': '2913', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/jowi/.nvm', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jowi/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jowi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jowi', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jowi/.local/bin:/usr/bin/cninja:/opt/ros/humble/bin:/home/jowi/.nvm/versions/node/v20.9.0/bin:/usr/bin/cninja:/home/jowi/.local/bin:/usr/bin/cninja:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jowi-Inspiron-3580:@/tmp/.ICE-unix/2702,unix/jowi-Inspiron-3580:/tmp/.ICE-unix/2702', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/385d6b5e_5352_4ba6_8950_73ca353c9988', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FR7F32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.746', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jowi/dev_ws/install/ros2_controllers:/home/jowi/dev_ws/install/velocity_controllers:/home/jowi/dev_ws/install/twist_converter:/home/jowi/dev_ws/install/tricycle_steering_controller:/home/jowi/dev_ws/install/tricycle_controller:/home/jowi/dev_ws/install/ros2_control:/home/jowi/dev_ws/install/transmission_interface:/home/jowi/dev_ws/install/bicycle_steering_controller:/home/jowi/dev_ws/install/ackermann_steering_controller:/home/jowi/dev_ws/install/steering_controllers_library:/home/jowi/dev_ws/install/rqt_joint_trajectory_controller:/home/jowi/dev_ws/install/rqt_controller_manager:/home/jowi/dev_ws/install/ros2controlcli:/home/jowi/dev_ws/install/ros2_controllers_test_nodes:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/range_sensor_broadcaster:/home/jowi/dev_ws/install/position_controllers:/home/jowi/dev_ws/install/pose_broadcaster:/home/jowi/dev_ws/install/pid_controller:/home/jowi/dev_ws/install/mecanum_drive_controller:/home/jowi/dev_ws/install/joy_tester:/home/jowi/dev_ws/install/joint_trajectory_controller:/home/jowi/dev_ws/install/joint_state_broadcaster:/home/jowi/dev_ws/install/joint_limits:/home/jowi/dev_ws/install/imu_sensor_broadcaster:/home/jowi/dev_ws/install/gripper_controllers:/home/jowi/dev_ws/install/gpio_controllers:/home/jowi/dev_ws/install/effort_controllers:/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/force_torque_sensor_broadcaster:/home/jowi/dev_ws/install/diff_drive_controller:/home/jowi/dev_ws/install/admittance_controller:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:/home/jowi/dev_ws/install/columbus:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jowi/dev_ws/build/pi2stm_comms', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/jowi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jowi/dev_ws/build/pi2stm_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jowi/dev_ws/install/pi2stm_comms/lib/python3.10/site-packages:/home/jowi/dev_ws/build/twist_converter:/home/jowi/dev_ws/install/twist_converter/lib/python3.10/site-packages:/home/jowi/dev_ws/build/rqt_joint_trajectory_controller:/home/jowi/dev_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/jowi/dev_ws/build/rqt_controller_manager:/home/jowi/dev_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/jowi/dev_ws/build/ros2controlcli:/home/jowi/dev_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/jowi/dev_ws/build/ros2_controllers_test_nodes:/home/jowi/dev_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/build/joy_tester:/home/jowi/dev_ws/install/joy_tester/lib/python3.10/site-packages:/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/jowi/dev_ws/install/ros2_controllers:/home/jowi/dev_ws/install/velocity_controllers:/home/jowi/dev_ws/install/tricycle_steering_controller:/home/jowi/dev_ws/install/tricycle_controller:/home/jowi/dev_ws/install/ros2_control:/home/jowi/dev_ws/install/transmission_interface:/home/jowi/dev_ws/install/bicycle_steering_controller:/home/jowi/dev_ws/install/ackermann_steering_controller:/home/jowi/dev_ws/install/steering_controllers_library:/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_manager:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/range_sensor_broadcaster:/home/jowi/dev_ws/install/position_controllers:/home/jowi/dev_ws/install/pose_broadcaster:/home/jowi/dev_ws/install/pid_controller:/home/jowi/dev_ws/install/mecanum_drive_controller:/home/jowi/dev_ws/install/joint_trajectory_controller:/home/jowi/dev_ws/install/joint_state_broadcaster:/home/jowi/dev_ws/install/joint_limits:/home/jowi/dev_ws/install/imu_sensor_broadcaster:/home/jowi/dev_ws/install/gripper_controllers:/home/jowi/dev_ws/install/gpio_controllers:/home/jowi/dev_ws/install/effort_controllers:/home/jowi/dev_ws/install/forward_command_controller:/home/jowi/dev_ws/install/force_torque_sensor_broadcaster:/home/jowi/dev_ws/install/diff_drive_controller:/home/jowi/dev_ws/install/admittance_controller:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:/home/jowi/dev_ws/install/columbus'}, 'shell': False}
+[2.823872] (-) TimerEvent: {}
+[2.924187] (-) TimerEvent: {}
+[3.024871] (-) TimerEvent: {}
+[3.126269] (-) TimerEvent: {}
+[3.226555] (-) TimerEvent: {}
+[3.327011] (-) TimerEvent: {}
+[3.428384] (-) TimerEvent: {}
+[3.528867] (-) TimerEvent: {}
+[3.629237] (-) TimerEvent: {}
+[3.729715] (-) TimerEvent: {}
+[3.830710] (-) TimerEvent: {}
+[3.931014] (-) TimerEvent: {}
+[4.031661] (-) TimerEvent: {}
+[4.133224] (-) TimerEvent: {}
+[4.233546] (-) TimerEvent: {}
+[4.311090] (pi2stm_comms) StdoutLine: {'line': b'running develop\n'}
+[4.333900] (-) TimerEvent: {}
+[4.435814] (-) TimerEvent: {}
+[4.538100] (-) TimerEvent: {}
+[4.638920] (-) TimerEvent: {}
+[4.740692] (-) TimerEvent: {}
+[4.841372] (-) TimerEvent: {}
+[4.942032] (-) TimerEvent: {}
+[4.968515] (pi2stm_comms) StdoutLine: {'line': b'running egg_info\n'}
+[4.969014] (pi2stm_comms) StdoutLine: {'line': b'creating pi2stm_comms.egg-info\n'}
+[4.987256] (pi2stm_comms) StdoutLine: {'line': b'writing pi2stm_comms.egg-info/PKG-INFO\n'}
+[4.987532] (pi2stm_comms) StdoutLine: {'line': b'writing dependency_links to pi2stm_comms.egg-info/dependency_links.txt\n'}
+[4.987708] (pi2stm_comms) StdoutLine: {'line': b'writing entry points to pi2stm_comms.egg-info/entry_points.txt\n'}
+[4.987885] (pi2stm_comms) StdoutLine: {'line': b'writing requirements to pi2stm_comms.egg-info/requires.txt\n'}
+[4.988013] (pi2stm_comms) StdoutLine: {'line': b'writing top-level names to pi2stm_comms.egg-info/top_level.txt\n'}
+[4.988188] (pi2stm_comms) StdoutLine: {'line': b"writing manifest file 'pi2stm_comms.egg-info/SOURCES.txt'\n"}
+[4.998283] (pi2stm_comms) StdoutLine: {'line': b"reading manifest file 'pi2stm_comms.egg-info/SOURCES.txt'\n"}
+[4.999198] (pi2stm_comms) StdoutLine: {'line': b"writing manifest file 'pi2stm_comms.egg-info/SOURCES.txt'\n"}
+[5.001905] (pi2stm_comms) StdoutLine: {'line': b'running build_ext\n'}
+[5.002226] (pi2stm_comms) StdoutLine: {'line': b'Creating /home/jowi/dev_ws/install/pi2stm_comms/lib/python3.10/site-packages/pi2stm-comms.egg-link (link to .)\n'}
+[5.003265] (pi2stm_comms) StdoutLine: {'line': b'Installing mecanum_controller_interface script to /home/jowi/dev_ws/install/pi2stm_comms/lib/pi2stm_comms\n'}
+[5.003510] (pi2stm_comms) StdoutLine: {'line': b'\n'}
+[5.003634] (pi2stm_comms) StdoutLine: {'line': b'Installed /home/jowi/dev_ws/build/pi2stm_comms\n'}
+[5.003774] (pi2stm_comms) StdoutLine: {'line': b'running symlink_data\n'}
+[5.003938] (pi2stm_comms) StdoutLine: {'line': b'creating /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index\n'}
+[5.004036] (pi2stm_comms) StdoutLine: {'line': b'creating /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index/resource_index\n'}
+[5.004117] (pi2stm_comms) StdoutLine: {'line': b'creating /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index/resource_index/packages\n'}
+[5.004199] (pi2stm_comms) StdoutLine: {'line': b'symbolically linking /home/jowi/dev_ws/build/pi2stm_comms/resource/pi2stm_comms -> /home/jowi/dev_ws/install/pi2stm_comms/share/ament_index/resource_index/packages\n'}
+[5.004344] (pi2stm_comms) StdoutLine: {'line': b'symbolically linking /home/jowi/dev_ws/build/pi2stm_comms/package.xml -> /home/jowi/dev_ws/install/pi2stm_comms/share/pi2stm_comms\n'}
+[5.042557] (-) TimerEvent: {}
+[5.085013] (pi2stm_comms) CommandEnded: {'returncode': 0}
+[5.127101] (pi2stm_comms) JobEnded: {'identifier': 'pi2stm_comms', 'rc': 0}
+[5.127846] (-) EventReactorShutdown: {}

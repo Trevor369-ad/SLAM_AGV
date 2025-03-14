@@ -1,0 +1,16 @@
+gmake[2]: *** [CMakeFiles/hardware_interface.dir/build.make:118: CMakeFiles/hardware_interface.dir/src/sensor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hardware_interface.dir/build.make:76: CMakeFiles/hardware_interface.dir/src/actuator.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hardware_interface.dir/build.make:132: CMakeFiles/hardware_interface.dir/src/system.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hardware_interface.dir/build.make:104: CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hardware_interface.dir/build.make:90: CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/hardware_interface.dir/all] Interrupt
+gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:76: gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
+gmake[2]: *** wait: No child processes. Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes. Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes. Stop.
+gmake[2]: *** wait: No child processes. Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:491: gmock/CMakeFiles/gmock.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:517: gmock/CMakeFiles/gmock_main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

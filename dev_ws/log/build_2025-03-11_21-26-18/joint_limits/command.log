@@ -1,0 +1,4 @@
+Invoking command in '/home/jowi/dev_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/joint_limits -- -j8 -l8
+Invoked command in '/home/jowi/dev_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/joint_limits -- -j8 -l8
+Invoking command in '/home/jowi/dev_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/joint_limits
+Invoked command in '/home/jowi/dev_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jowi/dev_ws/build/joint_limits

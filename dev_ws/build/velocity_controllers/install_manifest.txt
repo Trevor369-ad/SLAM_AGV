@@ -1,0 +1,3 @@
+/home/jowi/dev_ws/install/velocity_controllers/lib/libvelocity_controllers.so
+/home/jowi/dev_ws/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport.cmake
+/home/jowi/dev_ws/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport-noconfig.cmake

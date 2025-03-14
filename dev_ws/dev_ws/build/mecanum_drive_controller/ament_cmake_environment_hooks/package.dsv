@@ -1,0 +1,4 @@
+source;share/mecanum_drive_controller/local_setup.bash
+source;share/mecanum_drive_controller/local_setup.dsv
+source;share/mecanum_drive_controller/local_setup.sh
+source;share/mecanum_drive_controller/local_setup.zsh

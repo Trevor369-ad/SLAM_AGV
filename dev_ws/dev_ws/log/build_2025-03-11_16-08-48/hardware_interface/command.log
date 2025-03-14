@@ -1,0 +1,1 @@
+Invoking command in '/home/jowi/dev_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/columbus:/opt/ros/humble /usr/local/bin/cmake --build /home/jowi/dev_ws/build/hardware_interface -- -j8 -l8

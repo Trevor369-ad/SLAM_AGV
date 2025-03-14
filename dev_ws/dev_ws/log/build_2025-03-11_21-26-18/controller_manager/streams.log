@@ -1,0 +1,123 @@
+[0.024s] Invoking command in '/home/jowi/dev_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/controller_manager -- -j8 -l8
+[0.066s] [  2%] Built target ament_generate_version_header__controller_manager
+[0.069s] [  2%] Built target ament_cmake_python_symlink_controller_manager
+[0.070s] [  2%] Built target ament_cmake_python_symlink_controller_manager_setup
+[0.071s] [  7%] Built target gmock_main
+[0.076s] [ 15%] Built target gmock
+[0.091s] [ 18%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[0.758s] running install_scripts
+[0.762s] running egg_info
+[0.764s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.764s]   warnings.warn(
+[0.777s] writing controller_manager.egg-info/PKG-INFO
+[0.777s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[0.778s] writing entry points to controller_manager.egg-info/entry_points.txt
+[0.778s] writing top-level names to controller_manager.egg-info/top_level.txt
+[0.784s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.786s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.819s] running egg_info
+[0.828s] writing controller_manager.egg-info/PKG-INFO
+[0.828s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[0.829s] writing entry points to controller_manager.egg-info/entry_points.txt
+[0.829s] writing top-level names to controller_manager.egg-info/top_level.txt
+[0.833s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.835s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[0.839s] Installing hardware_spawner script to scripts
+[0.840s] Installing spawner script to scripts
+[0.840s] Installing unspawner script to scripts
+[0.844s] [ 18%] Built target ament_cmake_python_build_controller_manager_egg
+[0.909s] [ 18%] Built target ament_cmake_python_build_controller_manager_scripts
+[1.931s] [ 21%] Built target controller_manager
+[1.967s] [ 23%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[1.967s] [ 26%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[1.967s] [ 31%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[1.967s] [ 28%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[1.967s] [ 34%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[1.968s] [ 36%] [32m[1mLinking CXX executable ros2_control_node[0m
+[1.968s] [ 39%] [32m[1mLinking CXX executable test_hardware_spawner[0m
+[2.431s] [ 42%] Built target test_controller_failed_init
+[2.456s] [ 44%] Built target test_controller_with_interfaces
+[2.521s] [ 47%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[2.780s] [ 50%] Built target test_controller
+[2.868s] [ 52%] [32m[1mLinking CXX executable test_controller_manager[0m
+[2.872s] [ 55%] [32m[1mLinking CXX executable test_load_controller[0m
+[2.884s] [ 57%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[6.539s] [ 60%] Built target test_chainable_controller
+[6.681s] [ 63%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[7.650s] [ 65%] Built target ros2_control_node
+[7.770s] [ 68%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[10.154s] [ 71%] Built target test_controller_manager_urdf_passing
+[10.282s] [ 73%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[10.708s] [ 76%] Built target test_hardware_spawner
+[10.770s] [ 78%] Built target test_controller_manager_with_namespace.cpp
+[10.788s] [ 81%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[11.185s] [ 84%] Built target test_release_interfaces
+[11.726s] [ 86%] Built target test_controller_manager
+[12.004s] [ 89%] Built target test_load_controller
+[13.805s] [ 92%] Built target test_spawner_unspawner
+[14.132s] [ 94%] Built target test_hardware_management_srvs
+[14.901s] [ 97%] Built target test_controllers_chaining_with_controller_manager
+[15.274s] [100%] Built target test_controller_manager_srvs
+[15.281s] Invoked command in '/home/jowi/dev_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jowi/dev_ws/build/controller_manager -- -j8 -l8
+[15.283s] Invoking command in '/home/jowi/dev_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/controller_manager
+[15.286s] -- Install configuration: ""
+[15.287s] -- Execute custom install script
+[15.288s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/libcontroller_manager.so
+[15.288s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[15.289s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[15.290s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[15.290s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[15.290s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[15.291s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/libtest_controller.so
+[15.291s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[15.291s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[15.292s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[15.292s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[15.293s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[15.293s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[15.294s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/test/test_controller_spawner_with_type.yaml
+[15.294s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/test/test_controller_spawner_with_basic_controllers.yaml
+[15.294s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/test/test_controller_overriding_parameters.yaml
+[15.295s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/test/test_controller_spawner_wildcard_entries.yaml
+[15.295s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/test/test_controller_spawner_with_interfaces.yaml
+[15.296s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/test/test_ros2_control_node.yaml
+[15.296s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[15.296s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[15.297s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/PKG-INFO
+[15.297s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/SOURCES.txt
+[15.298s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/dependency_links.txt
+[15.298s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/entry_points.txt
+[15.299s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/top_level.txt
+[15.299s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+[15.299s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/controller_manager//spawner
+[15.300s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/lib/controller_manager//unspawner
+[15.301s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[15.301s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[15.301s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+[15.302s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[15.303s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[15.303s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[15.303s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[15.304s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[15.304s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[15.305s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[15.306s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[15.306s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[15.306s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[15.307s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[15.307s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[15.308s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[15.308s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[15.308s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[15.308s] -- Symlinking: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/package.dsv
+[15.313s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[15.313s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[15.313s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[15.314s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.314s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.314s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[15.315s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[15.315s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/share/controller_manager/package.xml
+[15.315s] -- Up-to-date symlink: /home/jowi/dev_ws/install/controller_manager/include/controller_manager/controller_manager/version.h
+[15.351s] Listing '/home/jowi/dev_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[15.358s] Invoked command in '/home/jowi/dev_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jowi/dev_ws/install/hardware_interface_testing:/home/jowi/dev_ws/install/controller_interface:/home/jowi/dev_ws/install/hardware_interface:/home/jowi/dev_ws/install/ros2_control_test_assets:/home/jowi/dev_ws/install/controller_manager_msgs:/home/jowi/dev_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jowi/dev_ws/install/hardware_interface_testing/lib:/home/jowi/dev_ws/install/controller_interface/lib:/home/jowi/dev_ws/install/hardware_interface/lib:/home/jowi/dev_ws/install/controller_manager_msgs/lib:/home/jowi/dev_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jowi/dev_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/jowi/dev_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jowi/dev_ws/build/controller_manager

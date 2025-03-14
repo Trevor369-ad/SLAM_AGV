@@ -1,0 +1,33 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/drive_bot.rviz
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/empty.yaml
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/gazebo_params.yaml
+-- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/config/joystick.yaml
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/my_controllers.yaml
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/config/view_bot.rviz
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/robot_core.xacro
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/description/ros2_control.xacro
+-- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/launch/joystick.launch.py
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/launch/rsp.launch.py
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/worlds/empty.world
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/worlds/obstacles.world
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/package_run_dependencies/columbus
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/parent_prefix_path/columbus
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/environment/path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.bash
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.zsh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/local_setup.dsv
+-- Symlinking: /home/jowi/dev_ws/install/columbus/share/columbus/package.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/ament_index/resource_index/packages/columbus
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/cmake/columbusConfig.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/cmake/columbusConfig-version.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/columbus/share/columbus/package.xml

@@ -1,0 +1,37 @@
+[ 12%] Built target mecanum_drive_controller_parameters
+[ 25%] Built target gmock_main
+[ 43%] Built target gmock
+[ 62%] Built target mecanum_drive_controller
+[ 75%] Built target test_load_mecanum_drive_controller
+[100%] Built target test_mecanum_drive_controller
+[100%] Built target test_mecanum_drive_controller_preceeding
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_controller.xml
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+-- Symlinking: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+-- Up-to-date: /home/jowi/dev_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+-- Up-to-date: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+-- Up-to-date: /home/jowi/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake
