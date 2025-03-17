@@ -1,3 +1,0 @@
-/home/jowi/dev_ws/install/bicycle_steering_controller/lib/libbicycle_steering_controller.so
-/home/jowi/dev_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/export_bicycle_steering_controllerExport.cmake
-/home/jowi/dev_ws/install/bicycle_steering_controller/share/bicycle_steering_controller/cmake/export_bicycle_steering_controllerExport-noconfig.cmake

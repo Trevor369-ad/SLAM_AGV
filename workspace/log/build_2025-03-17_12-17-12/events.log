@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001621] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.002219] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.002307] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.002382] (-) JobUnselected: {'identifier': 'columbus'}
+[0.002456] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.002530] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.002603] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.002674] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.002746] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.002816] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.002887] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.002958] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.003029] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.003101] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.003172] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.003244] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.003314] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.003385] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.003455] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.003528] (-) JobUnselected: {'identifier': 'joy_tester'}
+[0.003599] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.003669] (-) JobUnselected: {'identifier': 'pi2stm_comms'}
+[0.003739] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.003809] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.003880] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.003950] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.004022] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.004481] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.004652] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.004726] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.004797] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.004868] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.004938] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.005008] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.005077] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.005147] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.005217] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.005310] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.005588] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.005743] (controller_manager) JobQueued: {'identifier': 'controller_manager', 'dependencies': OrderedDict([('control_msgs', '/home/pinet/SLAM_AGV/workspace/install/control_msgs'), ('controller_manager_msgs', '/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets'), ('hardware_interface', '/home/pinet/SLAM_AGV/workspace/install/hardware_interface'), ('controller_interface', '/home/pinet/SLAM_AGV/workspace/install/controller_interface'), ('hardware_interface_testing', '/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing')])}
+[0.005891] (controller_manager) JobStarted: {'identifier': 'controller_manager'}
+[0.095365] (controller_manager) JobProgress: {'identifier': 'controller_manager', 'progress': 'cmake'}
+[0.098636] (controller_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/pinet/SLAM_AGV/workspace/src/ros2_control/controller_manager', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/controller_manager'], 'cwd': '/home/pinet/SLAM_AGV/workspace/build/controller_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1587,0'), ('USER', 'pinet'), ('SSH_CLIENT', '192.168.1.107 34780 22'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing/lib:/home/pinet/SLAM_AGV/workspace/install/controller_interface/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface/lib:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/lib:/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pinet'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pinet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('PWD', '/home/pinet/SLAM_AGV/workspace/build/controller_manager'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.107 34780 192.168.1.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble')]), 'shell': False}
+[0.112463] (-) TimerEvent: {}
+[0.158851] (controller_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.212695] (-) TimerEvent: {}
+[0.313438] (-) TimerEvent: {}
+[0.414145] (-) TimerEvent: {}
+[0.514865] (-) TimerEvent: {}
+[0.615535] (-) TimerEvent: {}
+[0.685555] (controller_manager) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.715734] (-) TimerEvent: {}
+[0.779946] (controller_manager) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[0.780569] (controller_manager) StderrLine: {'line': b'  By not providing "Findbackward_ros.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.780891] (controller_manager) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.781180] (controller_manager) StderrLine: {'line': b'  "backward_ros", but CMake did not find one.\n'}
+[0.781532] (controller_manager) StderrLine: {'line': b'\n'}
+[0.781856] (controller_manager) StderrLine: {'line': b'  Could not find a package configuration file provided by "backward_ros" with\n'}
+[0.782172] (controller_manager) StderrLine: {'line': b'  any of the following names:\n'}
+[0.782520] (controller_manager) StderrLine: {'line': b'\n'}
+[0.783278] (controller_manager) StderrLine: {'line': b'    backward_rosConfig.cmake\n'}
+[0.783785] (controller_manager) StderrLine: {'line': b'    backward_ros-config.cmake\n'}
+[0.784130] (controller_manager) StderrLine: {'line': b'\n'}
+[0.784429] (controller_manager) StderrLine: {'line': b'  Add the installation prefix of "backward_ros" to CMAKE_PREFIX_PATH or set\n'}
+[0.784714] (controller_manager) StderrLine: {'line': b'  "backward_ros_DIR" to a directory containing one of the above files.  If\n'}
+[0.785010] (controller_manager) StderrLine: {'line': b'  "backward_ros" provides a separate development package or SDK, be sure it\n'}
+[0.785429] (controller_manager) StderrLine: {'line': b'  has been installed.\n'}
+[0.785790] (controller_manager) StderrLine: {'line': b'\n'}
+[0.786136] (controller_manager) StderrLine: {'line': b'\x1b[0m\n'}
+[0.786466] (controller_manager) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.786863] (controller_manager) StdoutLine: {'line': b'See also "/home/pinet/SLAM_AGV/workspace/build/controller_manager/CMakeFiles/CMakeOutput.log".\n'}
+[0.788775] (controller_manager) CommandEnded: {'returncode': 1}
+[0.815923] (-) TimerEvent: {}
+[0.865481] (controller_manager) JobEnded: {'identifier': 'controller_manager', 'rc': 1}
+[0.876798] (-) EventReactorShutdown: {}

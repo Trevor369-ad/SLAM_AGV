@@ -1,8 +1,8 @@
-# Install script for directory: /home/jowi/dev_ws/build/control_msgs/control_msgs__py
+# Install script for directory: /home/pinet/SLAM_AGV/workspace/build/control_msgs/control_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jowi/dev_ws/install/control_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/pinet/SLAM_AGV/workspace/install/control_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

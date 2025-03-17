@@ -1,0 +1,738 @@
+[0.000000] (-) TimerEvent: {}
+[0.001647] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.002666] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.002887] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.003161] (-) JobUnselected: {'identifier': 'columbus'}
+[0.003308] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.003389] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.003465] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.003538] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.003610] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.003681] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.003753] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.003825] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.003895] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.003965] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.004036] (-) JobUnselected: {'identifier': 'joy_tester'}
+[0.004106] (-) JobUnselected: {'identifier': 'parallel_gripper_controller'}
+[0.004175] (-) JobUnselected: {'identifier': 'pi2stm_comms'}
+[0.004245] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.004316] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.004391] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.004462] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.004532] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.004602] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.004671] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.004741] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.004811] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.004881] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.004951] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.005021] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.005100] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict([('control_msgs', '/home/pinet/SLAM_AGV/workspace/install/control_msgs')])}
+[0.005194] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[0.047813] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'cmake'}
+[0.050302] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/mecanum_drive_controller'], 'cwd': '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1136,1'), ('USER', 'pinet'), ('SSH_CLIENT', '192.168.1.107 48042 22'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pinet'), ('OLDPWD', '/home/pinet/SLAM_AGV'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pinet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('PWD', '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.107 50810 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble')]), 'shell': False}
+[0.098941] (-) TimerEvent: {}
+[0.199889] (-) TimerEvent: {}
+[0.300783] (-) TimerEvent: {}
+[0.401708] (-) TimerEvent: {}
+[0.502467] (-) TimerEvent: {}
+[0.603344] (-) TimerEvent: {}
+[0.704325] (-) TimerEvent: {}
+[0.805213] (-) TimerEvent: {}
+[0.906187] (-) TimerEvent: {}
+[1.007149] (-) TimerEvent: {}
+[1.107880] (-) TimerEvent: {}
+[1.165914] (mecanum_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.208061] (-) TimerEvent: {}
+[1.308787] (-) TimerEvent: {}
+[1.409672] (-) TimerEvent: {}
+[1.510644] (-) TimerEvent: {}
+[1.611402] (-) TimerEvent: {}
+[1.712299] (-) TimerEvent: {}
+[1.813402] (-) TimerEvent: {}
+[1.893271] (mecanum_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.913573] (-) TimerEvent: {}
+[1.938275] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.013763] (-) TimerEvent: {}
+[2.114558] (-) TimerEvent: {}
+[2.215310] (-) TimerEvent: {}
+[2.306771] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.315436] (-) TimerEvent: {}
+[2.333534] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.335944] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.338637] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.353127] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.415723] (-) TimerEvent: {}
+[2.516577] (-) TimerEvent: {}
+[2.617352] (-) TimerEvent: {}
+[2.704884] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.717491] (-) TimerEvent: {}
+[2.732704] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.733598] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.735184] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.771344] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.817708] (-) TimerEvent: {}
+[2.918405] (-) TimerEvent: {}
+[3.019105] (-) TimerEvent: {}
+[3.119773] (-) TimerEvent: {}
+[3.220412] (-) TimerEvent: {}
+[3.321108] (-) TimerEvent: {}
+[3.421808] (-) TimerEvent: {}
+[3.464363] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.522010] (-) TimerEvent: {}
+[3.622815] (-) TimerEvent: {}
+[3.723839] (-) TimerEvent: {}
+[3.793519] (mecanum_drive_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.823976] (-) TimerEvent: {}
+[3.924662] (-) TimerEvent: {}
+[4.025331] (-) TimerEvent: {}
+[4.117876] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[4.125522] (-) TimerEvent: {}
+[4.226159] (-) TimerEvent: {}
+[4.326848] (-) TimerEvent: {}
+[4.427488] (-) TimerEvent: {}
+[4.486019] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.527659] (-) TimerEvent: {}
+[4.577210] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.627850] (-) TimerEvent: {}
+[4.655671] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.728020] (-) TimerEvent: {}
+[4.758296] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.828229] (-) TimerEvent: {}
+[4.874414] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.928421] (-) TimerEvent: {}
+[5.029189] (-) TimerEvent: {}
+[5.130006] (-) TimerEvent: {}
+[5.230730] (-) TimerEvent: {}
+[5.331517] (-) TimerEvent: {}
+[5.432209] (-) TimerEvent: {}
+[5.532882] (-) TimerEvent: {}
+[5.633555] (-) TimerEvent: {}
+[5.734230] (-) TimerEvent: {}
+[5.834906] (-) TimerEvent: {}
+[5.935526] (-) TimerEvent: {}
+[6.036167] (-) TimerEvent: {}
+[6.136843] (-) TimerEvent: {}
+[6.229147] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.237001] (-) TimerEvent: {}
+[6.254677] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.337235] (-) TimerEvent: {}
+[6.437896] (-) TimerEvent: {}
+[6.439487] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.538105] (-) TimerEvent: {}
+[6.638982] (-) TimerEvent: {}
+[6.689395] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.704066] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.739131] (-) TimerEvent: {}
+[6.750928] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.763786] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.796147] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.828382] (mecanum_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.839293] (-) TimerEvent: {}
+[6.903123] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.939476] (-) TimerEvent: {}
+[7.040212] (-) TimerEvent: {}
+[7.141135] (-) TimerEvent: {}
+[7.241941] (-) TimerEvent: {}
+[7.342962] (-) TimerEvent: {}
+[7.376775] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.377786] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.443162] (-) TimerEvent: {}
+[7.543971] (-) TimerEvent: {}
+[7.644961] (-) TimerEvent: {}
+[7.745773] (-) TimerEvent: {}
+[7.812475] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.817334] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.845945] (-) TimerEvent: {}
+[7.946752] (-) TimerEvent: {}
+[8.047590] (-) TimerEvent: {}
+[8.127209] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[8.147155] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[8.147676] (-) TimerEvent: {}
+[8.248212] (-) TimerEvent: {}
+[8.294396] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[8.348430] (-) TimerEvent: {}
+[8.392212] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[8.448585] (-) TimerEvent: {}
+[8.490484] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.548756] (-) TimerEvent: {}
+[8.565524] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[8.602005] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[8.648923] (-) TimerEvent: {}
+[8.670475] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.676953] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.677623] (mecanum_drive_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.749075] (-) TimerEvent: {}
+[8.849734] (-) TimerEvent: {}
+[8.950352] (-) TimerEvent: {}
+[9.050188] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[9.050666] (-) TimerEvent: {}
+[9.073865] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[9.150895] (-) TimerEvent: {}
+[9.213212] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.48.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[9.238477] (mecanum_drive_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[9.251030] (-) TimerEvent: {}
+[9.281048] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[9.288564] (mecanum_drive_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[9.351224] (-) TimerEvent: {}
+[9.452118] (-) TimerEvent: {}
+[9.552789] (-) TimerEvent: {}
+[9.653470] (-) TimerEvent: {}
+[9.754204] (-) TimerEvent: {}
+[9.825626] (mecanum_drive_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.854357] (-) TimerEvent: {}
+[9.955032] (-) TimerEvent: {}
+[10.055812] (-) TimerEvent: {}
+[10.156521] (-) TimerEvent: {}
+[10.257382] (-) TimerEvent: {}
+[10.358191] (-) TimerEvent: {}
+[10.459017] (-) TimerEvent: {}
+[10.559738] (-) TimerEvent: {}
+[10.660342] (-) TimerEvent: {}
+[10.729290] (mecanum_drive_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[10.760533] (-) TimerEvent: {}
+[10.790446] (mecanum_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller\n'}
+[10.846229] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[10.848132] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'build'}
+[10.850521] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller', '--', '-j4', '-l4'], 'cwd': '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1136,1'), ('USER', 'pinet'), ('SSH_CLIENT', '192.168.1.107 48042 22'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pinet'), ('OLDPWD', '/home/pinet/SLAM_AGV'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pinet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('PWD', '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.107 50810 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble')]), 'shell': False}
+[10.860687] (-) TimerEvent: {}
+[10.961456] (-) TimerEvent: {}
+[11.062294] (-) TimerEvent: {}
+[11.071587] (mecanum_drive_controller) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.yaml `\x1b[0m\n'}
+[11.072904] (mecanum_drive_controller) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[11.075723] (mecanum_drive_controller) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[11.093240] (mecanum_drive_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[11.162422] (-) TimerEvent: {}
+[11.263167] (-) TimerEvent: {}
+[11.363923] (-) TimerEvent: {}
+[11.464705] (-) TimerEvent: {}
+[11.565616] (-) TimerEvent: {}
+[11.666556] (-) TimerEvent: {}
+[11.767602] (-) TimerEvent: {}
+[11.868553] (-) TimerEvent: {}
+[11.969619] (-) TimerEvent: {}
+[12.070635] (-) TimerEvent: {}
+[12.171665] (-) TimerEvent: {}
+[12.273327] (-) TimerEvent: {}
+[12.374907] (-) TimerEvent: {}
+[12.476509] (-) TimerEvent: {}
+[12.578556] (-) TimerEvent: {}
+[12.680548] (-) TimerEvent: {}
+[12.782119] (-) TimerEvent: {}
+[12.883764] (-) TimerEvent: {}
+[12.985457] (-) TimerEvent: {}
+[13.087237] (-) TimerEvent: {}
+[13.188601] (-) TimerEvent: {}
+[13.290176] (-) TimerEvent: {}
+[13.391957] (-) TimerEvent: {}
+[13.493499] (-) TimerEvent: {}
+[13.595262] (-) TimerEvent: {}
+[13.696861] (-) TimerEvent: {}
+[13.798578] (-) TimerEvent: {}
+[13.900225] (-) TimerEvent: {}
+[14.002009] (-) TimerEvent: {}
+[14.103959] (-) TimerEvent: {}
+[14.206548] (-) TimerEvent: {}
+[14.242522] (mecanum_drive_controller) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mCreating deprecated header file /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp\x1b[0m\n'}
+[14.306796] (-) TimerEvent: {}
+[14.407820] (-) TimerEvent: {}
+[14.474329] (mecanum_drive_controller) StdoutLine: {'line': b'[ 31%] Built target mecanum_drive_controller_parameters\n'}
+[14.508074] (-) TimerEvent: {}
+[14.604833] (mecanum_drive_controller) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[14.608317] (-) TimerEvent: {}
+[14.709304] (-) TimerEvent: {}
+[14.810245] (-) TimerEvent: {}
+[14.911381] (-) TimerEvent: {}
+[15.012427] (-) TimerEvent: {}
+[15.113906] (-) TimerEvent: {}
+[15.215252] (-) TimerEvent: {}
+[15.317946] (-) TimerEvent: {}
+[15.420072] (-) TimerEvent: {}
+[15.522687] (-) TimerEvent: {}
+[15.625463] (-) TimerEvent: {}
+[15.728164] (-) TimerEvent: {}
+[15.830669] (-) TimerEvent: {}
+[15.933471] (-) TimerEvent: {}
+[16.036558] (-) TimerEvent: {}
+[16.139523] (-) TimerEvent: {}
+[16.242527] (-) TimerEvent: {}
+[16.345596] (-) TimerEvent: {}
+[16.449243] (-) TimerEvent: {}
+[16.552459] (-) TimerEvent: {}
+[16.655685] (-) TimerEvent: {}
+[16.758950] (-) TimerEvent: {}
+[16.862083] (-) TimerEvent: {}
+[16.965522] (-) TimerEvent: {}
+[17.068696] (-) TimerEvent: {}
+[17.171812] (-) TimerEvent: {}
+[17.273695] (-) TimerEvent: {}
+[17.375524] (-) TimerEvent: {}
+[17.477430] (-) TimerEvent: {}
+[17.579223] (-) TimerEvent: {}
+[17.681068] (-) TimerEvent: {}
+[17.782966] (-) TimerEvent: {}
+[17.884945] (-) TimerEvent: {}
+[17.987122] (-) TimerEvent: {}
+[18.088865] (-) TimerEvent: {}
+[18.190327] (-) TimerEvent: {}
+[18.292078] (-) TimerEvent: {}
+[18.393925] (-) TimerEvent: {}
+[18.495384] (-) TimerEvent: {}
+[18.596469] (-) TimerEvent: {}
+[18.697702] (-) TimerEvent: {}
+[18.799000] (-) TimerEvent: {}
+[18.900548] (-) TimerEvent: {}
+[19.001935] (-) TimerEvent: {}
+[19.103416] (-) TimerEvent: {}
+[19.204797] (-) TimerEvent: {}
+[19.307224] (-) TimerEvent: {}
+[19.409007] (-) TimerEvent: {}
+[19.510196] (-) TimerEvent: {}
+[19.611530] (-) TimerEvent: {}
+[19.712931] (-) TimerEvent: {}
+[19.814644] (-) TimerEvent: {}
+[19.916165] (-) TimerEvent: {}
+[20.017736] (-) TimerEvent: {}
+[20.119193] (-) TimerEvent: {}
+[20.221253] (-) TimerEvent: {}
+[20.323386] (-) TimerEvent: {}
+[20.425242] (-) TimerEvent: {}
+[20.527307] (-) TimerEvent: {}
+[20.629322] (-) TimerEvent: {}
+[20.731769] (-) TimerEvent: {}
+[20.833946] (-) TimerEvent: {}
+[20.936485] (-) TimerEvent: {}
+[21.038789] (-) TimerEvent: {}
+[21.141174] (-) TimerEvent: {}
+[21.242270] (-) TimerEvent: {}
+[21.343349] (-) TimerEvent: {}
+[21.444362] (-) TimerEvent: {}
+[21.545431] (-) TimerEvent: {}
+[21.646462] (-) TimerEvent: {}
+[21.747584] (-) TimerEvent: {}
+[21.848550] (-) TimerEvent: {}
+[21.949548] (-) TimerEvent: {}
+[22.050501] (-) TimerEvent: {}
+[22.081189] (mecanum_drive_controller) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[22.150802] (-) TimerEvent: {}
+[22.251845] (-) TimerEvent: {}
+[22.259604] (mecanum_drive_controller) StdoutLine: {'line': b'[ 43%] Built target gmock_main\n'}
+[22.302934] (mecanum_drive_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o\x1b[0m\n'}
+[22.352191] (-) TimerEvent: {}
+[22.453393] (-) TimerEvent: {}
+[22.554299] (-) TimerEvent: {}
+[22.655121] (-) TimerEvent: {}
+[22.756120] (-) TimerEvent: {}
+[22.857471] (-) TimerEvent: {}
+[22.958516] (-) TimerEvent: {}
+[23.059581] (-) TimerEvent: {}
+[23.160528] (-) TimerEvent: {}
+[23.261976] (-) TimerEvent: {}
+[23.363518] (-) TimerEvent: {}
+[23.465737] (-) TimerEvent: {}
+[23.566665] (-) TimerEvent: {}
+[23.667612] (-) TimerEvent: {}
+[23.768614] (-) TimerEvent: {}
+[23.869599] (-) TimerEvent: {}
+[23.970560] (-) TimerEvent: {}
+[24.071655] (-) TimerEvent: {}
+[24.172553] (-) TimerEvent: {}
+[24.273493] (-) TimerEvent: {}
+[24.374375] (-) TimerEvent: {}
+[24.475278] (-) TimerEvent: {}
+[24.576215] (-) TimerEvent: {}
+[24.677155] (-) TimerEvent: {}
+[24.778091] (-) TimerEvent: {}
+[24.879188] (-) TimerEvent: {}
+[24.980482] (-) TimerEvent: {}
+[25.081546] (-) TimerEvent: {}
+[25.182567] (-) TimerEvent: {}
+[25.284062] (-) TimerEvent: {}
+[25.385825] (-) TimerEvent: {}
+[25.487524] (-) TimerEvent: {}
+[25.588592] (-) TimerEvent: {}
+[25.689639] (-) TimerEvent: {}
+[25.790758] (-) TimerEvent: {}
+[25.891810] (-) TimerEvent: {}
+[25.992755] (-) TimerEvent: {}
+[26.093832] (-) TimerEvent: {}
+[26.194991] (-) TimerEvent: {}
+[26.296624] (-) TimerEvent: {}
+[26.399121] (-) TimerEvent: {}
+[26.500520] (-) TimerEvent: {}
+[26.602009] (-) TimerEvent: {}
+[26.703563] (-) TimerEvent: {}
+[26.805053] (-) TimerEvent: {}
+[26.906577] (-) TimerEvent: {}
+[27.008154] (-) TimerEvent: {}
+[27.109690] (-) TimerEvent: {}
+[27.211250] (-) TimerEvent: {}
+[27.312354] (-) TimerEvent: {}
+[27.413815] (-) TimerEvent: {}
+[27.514989] (-) TimerEvent: {}
+[27.615943] (-) TimerEvent: {}
+[27.716994] (-) TimerEvent: {}
+[27.818072] (-) TimerEvent: {}
+[27.919214] (-) TimerEvent: {}
+[28.020251] (-) TimerEvent: {}
+[28.121331] (-) TimerEvent: {}
+[28.222435] (-) TimerEvent: {}
+[28.323658] (-) TimerEvent: {}
+[28.424715] (-) TimerEvent: {}
+[28.525756] (-) TimerEvent: {}
+[28.626781] (-) TimerEvent: {}
+[28.727897] (-) TimerEvent: {}
+[28.828947] (-) TimerEvent: {}
+[28.930015] (-) TimerEvent: {}
+[29.031031] (-) TimerEvent: {}
+[29.132184] (-) TimerEvent: {}
+[29.233369] (-) TimerEvent: {}
+[29.334433] (-) TimerEvent: {}
+[29.435501] (-) TimerEvent: {}
+[29.536553] (-) TimerEvent: {}
+[29.637575] (-) TimerEvent: {}
+[29.738727] (-) TimerEvent: {}
+[29.839787] (-) TimerEvent: {}
+[29.940916] (-) TimerEvent: {}
+[30.041985] (-) TimerEvent: {}
+[30.142966] (-) TimerEvent: {}
+[30.244068] (-) TimerEvent: {}
+[30.345149] (-) TimerEvent: {}
+[30.446190] (-) TimerEvent: {}
+[30.547269] (-) TimerEvent: {}
+[30.648336] (-) TimerEvent: {}
+[30.749438] (-) TimerEvent: {}
+[30.850533] (-) TimerEvent: {}
+[30.951758] (-) TimerEvent: {}
+[31.052842] (-) TimerEvent: {}
+[31.153919] (-) TimerEvent: {}
+[31.254987] (-) TimerEvent: {}
+[31.356020] (-) TimerEvent: {}
+[31.457059] (-) TimerEvent: {}
+[31.558424] (-) TimerEvent: {}
+[31.659415] (-) TimerEvent: {}
+[31.760226] (-) TimerEvent: {}
+[31.861055] (-) TimerEvent: {}
+[31.961929] (-) TimerEvent: {}
+[32.062753] (-) TimerEvent: {}
+[32.163549] (-) TimerEvent: {}
+[32.264356] (-) TimerEvent: {}
+[32.365195] (-) TimerEvent: {}
+[32.465993] (-) TimerEvent: {}
+[32.566849] (-) TimerEvent: {}
+[32.667780] (-) TimerEvent: {}
+[32.769009] (-) TimerEvent: {}
+[32.870037] (-) TimerEvent: {}
+[32.908431] (mecanum_drive_controller) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[32.970276] (-) TimerEvent: {}
+[33.072115] (-) TimerEvent: {}
+[33.173697] (-) TimerEvent: {}
+[33.275161] (-) TimerEvent: {}
+[33.288178] (mecanum_drive_controller) StdoutLine: {'line': b'[ 56%] Built target gmock\n'}
+[33.375367] (-) TimerEvent: {}
+[33.384961] (mecanum_drive_controller) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[33.475579] (-) TimerEvent: {}
+[33.492166] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:15\x1b[m\x1b[K:\n'}
+[33.493101] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:70:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type mecanum_drive_controller::MecanumDriveController::update_reference_from_subscribers(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[33.493767] (mecanum_drive_controller) StderrLine: {'line': b'   70 |   controller_interface::return_type \x1b[01;31m\x1b[Kupdate_reference_from_subscribers\x1b[m\x1b[K(\n'}
+[33.494342] (mecanum_drive_controller) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.575787] (-) TimerEvent: {}
+[33.677203] (-) TimerEvent: {}
+[33.778617] (-) TimerEvent: {}
+[33.880025] (-) TimerEvent: {}
+[33.981380] (-) TimerEvent: {}
+[34.082790] (-) TimerEvent: {}
+[34.151980] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.152751] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:322:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[34.153347] (mecanum_drive_controller) StderrLine: {'line': b'  322 |       \x1b[01;31m\x1b[Kcommand_interfaces_[i].set_value(std::numeric_limits<double>::quiet_NaN())\x1b[m\x1b[K;\n'}
+[34.154017] (mecanum_drive_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.165871] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type mecanum_drive_controller::MecanumDriveController::update_and_write_commands(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.166557] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:453:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K(&((mecanum_drive_controller::MecanumDriveController*)this)->mecanum_drive_controller::MecanumDriveController::<anonymous>.controller_interface::ChainableControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](((std::vector<hardware_interface::LoanedCommandInterface>::size_type)mecanum_drive_controller::MecanumDriveController::FRONT_LEFT)))->hardware_interface::LoanedCommandInterface::set_value(((double)wheel_front_left_vel))\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.167331] (mecanum_drive_controller) StderrLine: {'line': b'  453 |       \x1b[01;31m\x1b[Kcommand_interfaces_[FRONT_LEFT].set_value(wheel_front_left_vel)\x1b[m\x1b[K &&\n'}
+[34.167913] (mecanum_drive_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.168468] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:454:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K(&((mecanum_drive_controller::MecanumDriveController*)this)->mecanum_drive_controller::MecanumDriveController::<anonymous>.controller_interface::ChainableControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](((std::vector<hardware_interface::LoanedCommandInterface>::size_type)mecanum_drive_controller::MecanumDriveController::FRONT_RIGHT)))->hardware_interface::LoanedCommandInterface::set_value(((double)wheel_front_right_vel))\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.169671] (mecanum_drive_controller) StderrLine: {'line': b'  454 |       \x1b[01;31m\x1b[Kcommand_interfaces_[FRONT_RIGHT].set_value(wheel_front_right_vel)\x1b[m\x1b[K &&\n'}
+[34.170239] (mecanum_drive_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.170838] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:464:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K(&((mecanum_drive_controller::MecanumDriveController*)this)->mecanum_drive_controller::MecanumDriveController::<anonymous>.controller_interface::ChainableControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](((std::vector<hardware_interface::LoanedCommandInterface>::size_type)mecanum_drive_controller::MecanumDriveController::FRONT_LEFT)))->hardware_interface::LoanedCommandInterface::set_value(0.0)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.171782] (mecanum_drive_controller) StderrLine: {'line': b'  464 |     const bool value_set_error = \x1b[01;31m\x1b[Kcommand_interfaces_[FRONT_LEFT].set_value(0.0)\x1b[m\x1b[K &&\n'}
+[34.172361] (mecanum_drive_controller) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[34.172896] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:465:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K(&((mecanum_drive_controller::MecanumDriveController*)this)->mecanum_drive_controller::MecanumDriveController::<anonymous>.controller_interface::ChainableControllerInterface::<anonymous>.controller_interface::ControllerInterfaceBase::command_interfaces_.std::vector<hardware_interface::LoanedCommandInterface>::operator[](((std::vector<hardware_interface::LoanedCommandInterface>::size_type)mecanum_drive_controller::MecanumDriveController::FRONT_RIGHT)))->hardware_interface::LoanedCommandInterface::set_value(0.0)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.173589] (mecanum_drive_controller) StderrLine: {'line': b'  465 |                                  \x1b[01;31m\x1b[Kcommand_interfaces_[FRONT_RIGHT].set_value(0.0)\x1b[m\x1b[K &&\n'}
+[34.174131] (mecanum_drive_controller) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[34.183032] (-) TimerEvent: {}
+[34.284379] (-) TimerEvent: {}
+[34.385742] (-) TimerEvent: {}
+[34.487234] (-) TimerEvent: {}
+[34.588859] (-) TimerEvent: {}
+[34.690231] (-) TimerEvent: {}
+[34.791634] (-) TimerEvent: {}
+[34.893117] (-) TimerEvent: {}
+[34.994421] (-) TimerEvent: {}
+[35.095844] (-) TimerEvent: {}
+[35.202713] (-) TimerEvent: {}
+[35.303736] (-) TimerEvent: {}
+[35.404746] (-) TimerEvent: {}
+[35.505756] (-) TimerEvent: {}
+[35.607016] (-) TimerEvent: {}
+[35.708029] (-) TimerEvent: {}
+[35.808938] (-) TimerEvent: {}
+[35.909888] (-) TimerEvent: {}
+[36.010767] (-) TimerEvent: {}
+[36.111751] (-) TimerEvent: {}
+[36.212668] (-) TimerEvent: {}
+[36.313739] (-) TimerEvent: {}
+[36.414783] (-) TimerEvent: {}
+[36.515836] (-) TimerEvent: {}
+[36.616932] (-) TimerEvent: {}
+[36.718022] (-) TimerEvent: {}
+[36.819186] (-) TimerEvent: {}
+[36.920183] (-) TimerEvent: {}
+[37.021230] (-) TimerEvent: {}
+[37.122366] (-) TimerEvent: {}
+[37.223404] (-) TimerEvent: {}
+[37.324434] (-) TimerEvent: {}
+[37.425484] (-) TimerEvent: {}
+[37.526681] (-) TimerEvent: {}
+[37.627833] (-) TimerEvent: {}
+[37.729030] (-) TimerEvent: {}
+[37.830249] (-) TimerEvent: {}
+[37.931448] (-) TimerEvent: {}
+[38.032659] (-) TimerEvent: {}
+[38.133674] (-) TimerEvent: {}
+[38.234688] (-) TimerEvent: {}
+[38.335737] (-) TimerEvent: {}
+[38.436706] (-) TimerEvent: {}
+[38.537972] (-) TimerEvent: {}
+[38.639181] (-) TimerEvent: {}
+[38.740185] (-) TimerEvent: {}
+[38.841895] (-) TimerEvent: {}
+[38.943323] (-) TimerEvent: {}
+[39.044585] (-) TimerEvent: {}
+[39.146256] (-) TimerEvent: {}
+[39.247671] (-) TimerEvent: {}
+[39.348675] (-) TimerEvent: {}
+[39.449615] (-) TimerEvent: {}
+[39.551030] (-) TimerEvent: {}
+[39.652477] (-) TimerEvent: {}
+[39.753902] (-) TimerEvent: {}
+[39.855375] (-) TimerEvent: {}
+[39.956712] (-) TimerEvent: {}
+[40.057786] (-) TimerEvent: {}
+[40.158640] (-) TimerEvent: {}
+[40.267008] (-) TimerEvent: {}
+[40.367811] (-) TimerEvent: {}
+[40.468848] (-) TimerEvent: {}
+[40.569984] (-) TimerEvent: {}
+[40.670993] (-) TimerEvent: {}
+[40.772269] (-) TimerEvent: {}
+[40.873286] (-) TimerEvent: {}
+[40.974388] (-) TimerEvent: {}
+[41.075393] (-) TimerEvent: {}
+[41.176485] (-) TimerEvent: {}
+[41.277288] (-) TimerEvent: {}
+[41.378209] (-) TimerEvent: {}
+[41.479195] (-) TimerEvent: {}
+[41.580032] (-) TimerEvent: {}
+[41.681016] (-) TimerEvent: {}
+[41.782379] (-) TimerEvent: {}
+[41.883336] (-) TimerEvent: {}
+[41.984454] (-) TimerEvent: {}
+[42.085321] (-) TimerEvent: {}
+[42.186202] (-) TimerEvent: {}
+[42.287237] (-) TimerEvent: {}
+[42.388054] (-) TimerEvent: {}
+[42.489306] (-) TimerEvent: {}
+[42.590193] (-) TimerEvent: {}
+[42.691037] (-) TimerEvent: {}
+[42.791835] (-) TimerEvent: {}
+[42.892644] (-) TimerEvent: {}
+[42.993445] (-) TimerEvent: {}
+[43.094309] (-) TimerEvent: {}
+[43.195561] (-) TimerEvent: {}
+[43.296613] (-) TimerEvent: {}
+[43.397672] (-) TimerEvent: {}
+[43.498720] (-) TimerEvent: {}
+[43.599535] (-) TimerEvent: {}
+[43.700595] (-) TimerEvent: {}
+[43.801407] (-) TimerEvent: {}
+[43.902209] (-) TimerEvent: {}
+[44.003007] (-) TimerEvent: {}
+[44.103715] (-) TimerEvent: {}
+[44.204487] (-) TimerEvent: {}
+[44.305373] (-) TimerEvent: {}
+[44.406252] (-) TimerEvent: {}
+[44.507112] (-) TimerEvent: {}
+[44.608046] (-) TimerEvent: {}
+[44.709259] (-) TimerEvent: {}
+[44.810116] (-) TimerEvent: {}
+[44.911227] (-) TimerEvent: {}
+[44.929207] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[44.929930] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[44.930509] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[44.931394] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:529\x1b[m\x1b[K:\n'}
+[44.932296] (mecanum_drive_controller) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = mecanum_drive_controller::MecanumDriveController; B = controller_interface::ChainableControllerInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[44.933185] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[44.934205] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kmecanum_drive_controller::MecanumDriveController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[44.935169] (mecanum_drive_controller) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[44.935763] (mecanum_drive_controller) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[44.936285] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:15\x1b[m\x1b[K:\n'}
+[44.936802] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:50:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kmecanum_drive_controller::MecanumDriveController\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[44.937338] (mecanum_drive_controller) StderrLine: {'line': b'   50 | class \x1b[01;36m\x1b[KMecanumDriveController\x1b[m\x1b[K : public controller_interface::ChainableControllerInterface\n'}
+[44.938071] (mecanum_drive_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[44.938657] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27\x1b[m\x1b[K,\n'}
+[44.939335] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:15\x1b[m\x1b[K:\n'}
+[44.939865] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/controller_interface/chainable_controller_interface.hpp:100:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type controller_interface::ChainableControllerInterface::update_reference_from_subscribers()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[44.940420] (mecanum_drive_controller) StderrLine: {'line': b'  100 |   virtual return_type \x1b[01;36m\x1b[Kupdate_reference_from_subscribers\x1b[m\x1b[K() = 0;\n'}
+[44.941039] (mecanum_drive_controller) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[45.011414] (-) TimerEvent: {}
+[45.112229] (-) TimerEvent: {}
+[45.213157] (-) TimerEvent: {}
+[45.314097] (-) TimerEvent: {}
+[45.414924] (-) TimerEvent: {}
+[45.515924] (-) TimerEvent: {}
+[45.617218] (-) TimerEvent: {}
+[45.718100] (-) TimerEvent: {}
+[45.819037] (-) TimerEvent: {}
+[45.919936] (-) TimerEvent: {}
+[46.020895] (-) TimerEvent: {}
+[46.121769] (-) TimerEvent: {}
+[46.222738] (-) TimerEvent: {}
+[46.323953] (-) TimerEvent: {}
+[46.424752] (-) TimerEvent: {}
+[46.525584] (-) TimerEvent: {}
+[46.626487] (-) TimerEvent: {}
+[46.727593] (-) TimerEvent: {}
+[46.828823] (-) TimerEvent: {}
+[46.929862] (-) TimerEvent: {}
+[47.030721] (-) TimerEvent: {}
+[47.131636] (-) TimerEvent: {}
+[47.232522] (-) TimerEvent: {}
+[47.333465] (-) TimerEvent: {}
+[47.434380] (-) TimerEvent: {}
+[47.535302] (-) TimerEvent: {}
+[47.636180] (-) TimerEvent: {}
+[47.737101] (-) TimerEvent: {}
+[47.838094] (-) TimerEvent: {}
+[47.939917] (-) TimerEvent: {}
+[47.961613] (mecanum_drive_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1\n'}
+[47.962416] (mecanum_drive_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/mecanum_drive_controller.dir/all] Error 2\n'}
+[47.963080] (mecanum_drive_controller) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[48.040104] (-) TimerEvent: {}
+[48.140822] (-) TimerEvent: {}
+[48.241576] (-) TimerEvent: {}
+[48.342294] (-) TimerEvent: {}
+[48.443045] (-) TimerEvent: {}
+[48.543734] (-) TimerEvent: {}
+[48.644424] (-) TimerEvent: {}
+[48.745114] (-) TimerEvent: {}
+[48.845795] (-) TimerEvent: {}
+[48.946513] (-) TimerEvent: {}
+[49.047238] (-) TimerEvent: {}
+[49.147957] (-) TimerEvent: {}
+[49.248960] (-) TimerEvent: {}
+[49.349736] (-) TimerEvent: {}
+[49.450594] (-) TimerEvent: {}
+[49.551403] (-) TimerEvent: {}
+[49.652066] (-) TimerEvent: {}
+[49.752744] (-) TimerEvent: {}
+[49.853425] (-) TimerEvent: {}
+[49.954131] (-) TimerEvent: {}
+[50.054821] (-) TimerEvent: {}
+[50.155550] (-) TimerEvent: {}
+[50.256252] (-) TimerEvent: {}
+[50.356941] (-) TimerEvent: {}
+[50.457733] (-) TimerEvent: {}
+[50.558490] (-) TimerEvent: {}
+[50.659258] (-) TimerEvent: {}
+[50.759936] (-) TimerEvent: {}
+[50.860622] (-) TimerEvent: {}
+[50.961315] (-) TimerEvent: {}
+[51.062060] (-) TimerEvent: {}
+[51.162789] (-) TimerEvent: {}
+[51.263575] (-) TimerEvent: {}
+[51.364314] (-) TimerEvent: {}
+[51.465253] (-) TimerEvent: {}
+[51.566153] (-) TimerEvent: {}
+[51.666958] (-) TimerEvent: {}
+[51.767757] (-) TimerEvent: {}
+[51.868528] (-) TimerEvent: {}
+[51.940917] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[51.941570] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:46\x1b[m\x1b[K,\n'}
+[51.941948] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/test/test_load_mecanum_drive_controller.cpp:18\x1b[m\x1b[K:\n'}
+[51.942293] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/./class_loader_imp.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string pluginlib::ClassLoader<T>::getClassLibraryPath(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.942695] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/./class_loader_imp.hpp:491:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 shadows a previous local [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow\x07-Werror=shadow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.943202] (mecanum_drive_controller) StderrLine: {'line': b'  491 |   for (auto \x1b[01;31m\x1b[Kit\x1b[m\x1b[K = paths_to_try.begin(); it != paths_to_try.end(); it++) {\n'}
+[51.943574] (mecanum_drive_controller) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[51.943940] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/./class_loader_imp.hpp:479:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kshadowed declaration is here\n'}
+[51.944295] (mecanum_drive_controller) StderrLine: {'line': b'  479 |   ClassMapIterator \x1b[01;36m\x1b[Kit\x1b[m\x1b[K = classes_available_.find(lookup_name);\n'}
+[51.944658] (mecanum_drive_controller) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[51.968706] (-) TimerEvent: {}
+[52.069452] (-) TimerEvent: {}
+[52.170159] (-) TimerEvent: {}
+[52.270944] (-) TimerEvent: {}
+[52.371627] (-) TimerEvent: {}
+[52.472320] (-) TimerEvent: {}
+[52.572995] (-) TimerEvent: {}
+[52.673685] (-) TimerEvent: {}
+[52.774413] (-) TimerEvent: {}
+[52.875121] (-) TimerEvent: {}
+[52.975894] (-) TimerEvent: {}
+[52.984119] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/test/test_load_mecanum_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void TestLoadMecanumDriveController_load_controller_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.985084] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/test/test_load_mecanum_drive_controller.cpp:31:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcontroller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>&, const std::__cxx11::basic_string<char>&, bool, const char [24])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[52.985538] (mecanum_drive_controller) StderrLine: {'line': b'   31 |     executor, ros2_control_test_assets::minimal_robot_urdf, true, "test_controller_manager"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[52.985910] (mecanum_drive_controller) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[52.986266] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/test/test_load_mecanum_drive_controller.cpp:18\x1b[m\x1b[K:\n'}
+[52.986667] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:77:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcontroller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[52.987144] (mecanum_drive_controller) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[KControllerManager\x1b[m\x1b[K(\n'}
+[52.987512] (mecanum_drive_controller) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[52.987854] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:80:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[52.988293] (mecanum_drive_controller) StderrLine: {'line': b'   80 |     \x1b[01;36m\x1b[Kconst std::string & namespace_ = ""\x1b[m\x1b[K,\n'}
+[52.988661] (mecanum_drive_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[52.989048] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:69:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcontroller_manager::ControllerManager::ControllerManager(std::unique_ptr<hardware_interface::ResourceManager>, std::shared_ptr<rclcpp::Executor>, const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[52.989479] (mecanum_drive_controller) StderrLine: {'line': b'   69 |   \x1b[01;36m\x1b[KControllerManager\x1b[m\x1b[K(\n'}
+[52.989832] (mecanum_drive_controller) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[52.990182] (mecanum_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:70:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Executor>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<hardware_interface::ResourceManager>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[52.990593] (mecanum_drive_controller) StderrLine: {'line': b'   70 |     \x1b[01;36m\x1b[Kstd::unique_ptr<hardware_interface::ResourceManager> resource_manager\x1b[m\x1b[K,\n'}
+[52.990977] (mecanum_drive_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.076069] (-) TimerEvent: {}
+[53.176793] (-) TimerEvent: {}
+[53.277547] (-) TimerEvent: {}
+[53.378239] (-) TimerEvent: {}
+[53.478993] (-) TimerEvent: {}
+[53.579651] (-) TimerEvent: {}
+[53.680338] (-) TimerEvent: {}
+[53.781017] (-) TimerEvent: {}
+[53.881701] (-) TimerEvent: {}
+[53.982415] (-) TimerEvent: {}
+[54.083102] (-) TimerEvent: {}
+[54.183795] (-) TimerEvent: {}
+[54.284492] (-) TimerEvent: {}
+[54.385235] (-) TimerEvent: {}
+[54.485939] (-) TimerEvent: {}
+[54.586608] (-) TimerEvent: {}
+[54.687317] (-) TimerEvent: {}
+[54.787979] (-) TimerEvent: {}
+[54.888670] (-) TimerEvent: {}
+[54.989332] (-) TimerEvent: {}
+[55.090030] (-) TimerEvent: {}
+[55.190748] (-) TimerEvent: {}
+[55.291473] (-) TimerEvent: {}
+[55.392183] (-) TimerEvent: {}
+[55.492987] (-) TimerEvent: {}
+[55.593760] (-) TimerEvent: {}
+[55.694457] (-) TimerEvent: {}
+[55.795165] (-) TimerEvent: {}
+[55.895850] (-) TimerEvent: {}
+[55.996526] (-) TimerEvent: {}
+[56.097310] (-) TimerEvent: {}
+[56.198180] (-) TimerEvent: {}
+[56.298847] (-) TimerEvent: {}
+[56.320020] (mecanum_drive_controller) StderrLine: {'line': b'cc1plus: some warnings being treated as errors\n'}
+[56.399126] (-) TimerEvent: {}
+[56.409493] (mecanum_drive_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_load_mecanum_drive_controller.dir/build.make:76: CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o] Error 1\n'}
+[56.410171] (mecanum_drive_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/test_load_mecanum_drive_controller.dir/all] Error 2\n'}
+[56.410748] (mecanum_drive_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[56.417214] (mecanum_drive_controller) CommandEnded: {'returncode': 2}
+[56.472097] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 2}
+[56.483600] (-) EventReactorShutdown: {}

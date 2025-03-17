@@ -1,1 +1,1 @@
-/home/jowi/dev_ws/build/controller_manager_msgs/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c
+/home/pinet/SLAM_AGV/workspace/build/controller_manager_msgs/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c

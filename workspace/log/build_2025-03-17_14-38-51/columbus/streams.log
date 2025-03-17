@@ -1,0 +1,63 @@
+[0.037s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/columbus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/columbus
+[0.282s] -- The C compiler identification is GNU 11.4.0
+[0.526s] -- The CXX compiler identification is GNU 11.4.0
+[0.555s] -- Detecting C compiler ABI info
+[0.849s] -- Detecting C compiler ABI info - done
+[0.875s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.876s] -- Detecting C compile features
+[0.877s] -- Detecting C compile features - done
+[0.888s] -- Detecting CXX compiler ABI info
+[1.207s] -- Detecting CXX compiler ABI info - done
+[1.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.236s] -- Detecting CXX compile features
+[1.237s] -- Detecting CXX compile features - done
+[1.259s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.915s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.177s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.391s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.810s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.845s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.850s] -- Added test 'lint_cmake' to check CMake code style
+[2.854s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.871s] -- Added test 'xmllint' to check XML markup files
+[2.879s] -- Configuring done
+[2.899s] -- Generating done
+[2.906s] -- Build files have been written to: /home/pinet/SLAM_AGV/workspace/build/columbus
+[2.920s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/columbus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/columbus
+[2.930s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/columbus -- -j4 -l4
+[3.067s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/columbus -- -j4 -l4
+[3.105s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/columbus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pinet/SLAM_AGV/workspace/build/columbus
+[3.130s] -- Install configuration: ""
+[3.131s] -- Execute custom install script
+[3.136s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/drive_bot.rviz
+[3.137s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/empty.yaml
+[3.138s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/gazebo_params.yaml
+[3.140s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/joystick.yaml
+[3.141s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/my_controllers.yaml
+[3.143s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/view_bot.rviz
+[3.145s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/gazebo_control.xacro
+[3.146s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/inertial_macros.xacro
+[3.148s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/robot.urdf.xacro
+[3.149s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/robot_core.xacro
+[3.151s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/ros2_control.xacro
+[3.153s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/launch/joystick.launch.py
+[3.154s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/launch/launch_sim.launch.py
+[3.156s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/launch/rsp.launch.py
+[3.158s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/worlds/empty.world
+[3.159s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/worlds/obstacles.world
+[3.163s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/ament_index/resource_index/package_run_dependencies/columbus
+[3.165s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/ament_index/resource_index/parent_prefix_path/columbus
+[3.167s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/ament_prefix_path.sh
+[3.168s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/ament_prefix_path.dsv
+[3.170s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/path.sh
+[3.172s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/path.dsv
+[3.174s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.bash
+[3.175s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.sh
+[3.177s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.zsh
+[3.178s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.dsv
+[3.179s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/package.dsv
+[3.211s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/ament_index/resource_index/packages/columbus
+[3.214s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/cmake/columbusConfig.cmake
+[3.215s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/cmake/columbusConfig-version.cmake
+[3.216s] -- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/package.xml
+[3.224s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/columbus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pinet/SLAM_AGV/workspace/build/columbus

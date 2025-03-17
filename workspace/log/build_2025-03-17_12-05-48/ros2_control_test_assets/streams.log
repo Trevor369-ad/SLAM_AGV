@@ -1,0 +1,44 @@
+[0.029s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets
+[0.263s] -- The C compiler identification is GNU 11.4.0
+[0.504s] -- The CXX compiler identification is GNU 11.4.0
+[0.534s] -- Detecting C compiler ABI info
+[0.857s] -- Detecting C compiler ABI info - done
+[0.884s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.885s] -- Detecting C compile features
+[0.886s] -- Detecting C compile features - done
+[0.897s] -- Detecting CXX compiler ABI info
+[1.222s] -- Detecting CXX compiler ABI info - done
+[1.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.250s] -- Detecting CXX compile features
+[1.252s] -- Detecting CXX compile features - done
+[1.271s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.918s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.177s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.633s] -- Configuring done
+[2.651s] -- Generating done
+[2.659s] -- Build files have been written to: /home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets
+[2.674s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets
+[2.682s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets -- -j4 -l4
+[2.813s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets -- -j4 -l4
+[2.822s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets
+[2.846s] -- Install configuration: ""
+[2.848s] -- Execute custom install script
+[2.851s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[2.880s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[2.910s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[2.940s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[2.971s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[3.000s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[3.030s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[3.059s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[3.089s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[3.118s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[3.150s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[3.179s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[3.210s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[3.240s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[3.271s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.301s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[3.329s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[3.358s] -- Symlinking: /home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[3.394s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pinet/SLAM_AGV/workspace/build/ros2_control_test_assets

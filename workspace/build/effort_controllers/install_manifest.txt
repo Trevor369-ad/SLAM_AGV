@@ -1,3 +1,0 @@
-/home/jowi/dev_ws/install/effort_controllers/lib/libeffort_controllers.so
-/home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
-/home/jowi/dev_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake

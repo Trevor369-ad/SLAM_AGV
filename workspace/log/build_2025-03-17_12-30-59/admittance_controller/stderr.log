@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:66 (find_package):
+  By not providing "Findkinematics_interface_kdl.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "kinematics_interface_kdl", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "kinematics_interface_kdl" with any of the following names:
+
+    kinematics_interface_kdlConfig.cmake
+    kinematics_interface_kdl-config.cmake
+
+  Add the installation prefix of "kinematics_interface_kdl" to
+  CMAKE_PREFIX_PATH or set "kinematics_interface_kdl_DIR" to a directory
+  containing one of the above files.  If "kinematics_interface_kdl" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m

@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.001549] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.002085] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.002173] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.002249] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.002323] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.002399] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.002471] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.002543] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.002616] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.002688] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.003174] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.003347] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.003425] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.003499] (-) JobUnselected: {'identifier': 'joy_tester'}
+[0.003572] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.003644] (-) JobUnselected: {'identifier': 'pi2stm_comms'}
+[0.003716] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.003788] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.003859] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.003934] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.004004] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.004074] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.004145] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.004217] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.004288] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.004358] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.004429] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.004500] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.004580] (columbus) JobQueued: {'identifier': 'columbus', 'dependencies': OrderedDict()}
+[0.004863] (columbus) JobStarted: {'identifier': 'columbus'}
+[0.036565] (columbus) JobProgress: {'identifier': 'columbus', 'progress': 'cmake'}
+[0.038342] (columbus) Command: {'cmd': ['/usr/bin/cmake', '/home/pinet/SLAM_AGV/workspace/src/columbus', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/columbus'], 'cwd': '/home/pinet/SLAM_AGV/workspace/build/columbus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1136,1'), ('USER', 'pinet'), ('SSH_CLIENT', '192.168.1.107 48042 22'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pinet'), ('OLDPWD', '/home/pinet/SLAM_AGV/workspace/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pinet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('PWD', '/home/pinet/SLAM_AGV/workspace/build/columbus'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.107 50810 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098981] (-) TimerEvent: {}
+[0.199660] (-) TimerEvent: {}
+[0.286613] (columbus) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299830] (-) TimerEvent: {}
+[0.400584] (-) TimerEvent: {}
+[0.501344] (-) TimerEvent: {}
+[0.530835] (columbus) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.559653] (columbus) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601559] (-) TimerEvent: {}
+[0.702284] (-) TimerEvent: {}
+[0.803065] (-) TimerEvent: {}
+[0.853051] (columbus) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.879666] (columbus) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.880443] (columbus) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.881760] (columbus) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.892201] (columbus) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.903212] (-) TimerEvent: {}
+[1.003893] (-) TimerEvent: {}
+[1.104700] (-) TimerEvent: {}
+[1.205502] (-) TimerEvent: {}
+[1.211873] (columbus) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.239297] (columbus) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.240229] (columbus) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.241785] (columbus) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.263146] (columbus) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.305724] (-) TimerEvent: {}
+[1.406387] (-) TimerEvent: {}
+[1.507063] (-) TimerEvent: {}
+[1.607720] (-) TimerEvent: {}
+[1.708482] (-) TimerEvent: {}
+[1.809218] (-) TimerEvent: {}
+[1.910221] (-) TimerEvent: {}
+[1.915001] (columbus) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.010383] (-) TimerEvent: {}
+[2.111100] (-) TimerEvent: {}
+[2.181301] (columbus) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.211257] (-) TimerEvent: {}
+[2.311877] (-) TimerEvent: {}
+[2.395859] (columbus) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.412153] (-) TimerEvent: {}
+[2.512935] (-) TimerEvent: {}
+[2.613706] (-) TimerEvent: {}
+[2.714687] (-) TimerEvent: {}
+[2.814934] (columbus) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.815442] (-) TimerEvent: {}
+[2.849468] (columbus) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.854871] (columbus) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.858914] (columbus) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.875774] (columbus) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.883362] (columbus) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.903318] (columbus) StdoutLine: {'line': b'-- Generating done\n'}
+[2.910310] (columbus) StdoutLine: {'line': b'-- Build files have been written to: /home/pinet/SLAM_AGV/workspace/build/columbus\n'}
+[2.915684] (-) TimerEvent: {}
+[2.924559] (columbus) CommandEnded: {'returncode': 0}
+[2.926247] (columbus) JobProgress: {'identifier': 'columbus', 'progress': 'build'}
+[2.930869] (columbus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pinet/SLAM_AGV/workspace/build/columbus', '--', '-j4', '-l4'], 'cwd': '/home/pinet/SLAM_AGV/workspace/build/columbus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1136,1'), ('USER', 'pinet'), ('SSH_CLIENT', '192.168.1.107 48042 22'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pinet'), ('OLDPWD', '/home/pinet/SLAM_AGV/workspace/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pinet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('PWD', '/home/pinet/SLAM_AGV/workspace/build/columbus'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.107 50810 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.015897] (-) TimerEvent: {}
+[3.071628] (columbus) CommandEnded: {'returncode': 0}
+[3.073537] (columbus) JobProgress: {'identifier': 'columbus', 'progress': 'install'}
+[3.104280] (columbus) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pinet/SLAM_AGV/workspace/build/columbus'], 'cwd': '/home/pinet/SLAM_AGV/workspace/build/columbus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1136,1'), ('USER', 'pinet'), ('SSH_CLIENT', '192.168.1.107 48042 22'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pinet'), ('OLDPWD', '/home/pinet/SLAM_AGV/workspace/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pinet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('PWD', '/home/pinet/SLAM_AGV/workspace/build/columbus'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.107 50810 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.116081] (-) TimerEvent: {}
+[3.134243] (columbus) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.135815] (columbus) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.140569] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/drive_bot.rviz\n'}
+[3.141760] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/empty.yaml\n'}
+[3.143088] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/gazebo_params.yaml\n'}
+[3.144485] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/joystick.yaml\n'}
+[3.145810] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/my_controllers.yaml\n'}
+[3.147185] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/config/view_bot.rviz\n'}
+[3.149739] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/gazebo_control.xacro\n'}
+[3.151086] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/inertial_macros.xacro\n'}
+[3.152398] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/robot.urdf.xacro\n'}
+[3.153767] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/robot_core.xacro\n'}
+[3.155155] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/description/ros2_control.xacro\n'}
+[3.157607] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/launch/joystick.launch.py\n'}
+[3.158974] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/launch/launch_sim.launch.py\n'}
+[3.160325] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/launch/rsp.launch.py\n'}
+[3.162731] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/worlds/empty.world\n'}
+[3.164057] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/worlds/obstacles.world\n'}
+[3.167241] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/ament_index/resource_index/package_run_dependencies/columbus\n'}
+[3.169462] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/ament_index/resource_index/parent_prefix_path/columbus\n'}
+[3.171506] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/ament_prefix_path.sh\n'}
+[3.173119] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/ament_prefix_path.dsv\n'}
+[3.174849] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/path.sh\n'}
+[3.176502] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/environment/path.dsv\n'}
+[3.178094] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.bash\n'}
+[3.179714] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.sh\n'}
+[3.181305] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.zsh\n'}
+[3.183042] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/local_setup.dsv\n'}
+[3.183765] (columbus) StdoutLine: {'line': b'-- Symlinking: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/package.dsv\n'}
+[3.216096] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/ament_index/resource_index/packages/columbus\n'}
+[3.216597] (-) TimerEvent: {}
+[3.218139] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/cmake/columbusConfig.cmake\n'}
+[3.219701] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/cmake/columbusConfig-version.cmake\n'}
+[3.220907] (columbus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pinet/SLAM_AGV/workspace/install/columbus/share/columbus/package.xml\n'}
+[3.227488] (columbus) CommandEnded: {'returncode': 0}
+[3.302515] (columbus) JobEnded: {'identifier': 'columbus', 'rc': 0}
+[3.304954] (-) EventReactorShutdown: {}

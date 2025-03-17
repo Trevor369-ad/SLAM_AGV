@@ -1,0 +1,65 @@
+[0.118s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller': AMENT_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing/lib:/home/pinet/SLAM_AGV/workspace/install/controller_interface/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface/lib:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/lib:/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/mecanum_drive_controller
+[0.419s] -- The CXX compiler identification is GNU 11.4.0
+[0.458s] -- Detecting CXX compiler ABI info
+[0.822s] -- Detecting CXX compiler ABI info - done
+[0.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.850s] -- Detecting CXX compile features
+[0.851s] -- Detecting CXX compile features - done
+[0.881s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.609s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.893s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.231s] -- Found controller_interface: 2.48.0 (/home/pinet/SLAM_AGV/workspace/install/controller_interface/share/controller_interface/cmake)
+[2.562s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.614s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.678s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.040s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.067s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.239s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.503s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.513s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.564s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.576s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.608s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.725s] -- Looking for C++ include pthread.h
+[5.264s] -- Looking for C++ include pthread.h - found
+[5.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.775s] -- Found Threads: TRUE  
+[6.043s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[6.066s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.222s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.329s] -- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[6.434s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[6.511s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[6.545s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.627s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.632s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.632s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.995s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.999s] -- Found controller_manager: 2.48.0 (/home/pinet/SLAM_AGV/workspace/install/controller_manager/share/controller_manager/cmake)
+[7.100s] -- Found ros2_control_test_assets: 2.48.0 (/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[7.127s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.346s] -- The C compiler identification is GNU 11.4.0
+[7.380s] -- Detecting C compiler ABI info
+[7.816s] -- Detecting C compiler ABI info - done
+[7.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.845s] -- Detecting C compile features
+[7.847s] -- Detecting C compile features - done
+[7.896s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.899s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.398s] -- Configuring done
+[9.171s] -- Generating done
+[9.232s] -- Build files have been written to: /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller
+[9.286s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing/lib:/home/pinet/SLAM_AGV/workspace/install/controller_interface/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface/lib:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/lib:/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/mecanum_drive_controller
+[9.296s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller': AMENT_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing/lib:/home/pinet/SLAM_AGV/workspace/install/controller_interface/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface/lib:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/lib:/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller -- -j4 -l4
+[9.551s] [ 12%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/pinet/SLAM_AGV/workspace/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.yaml `[0m
+[9.553s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[9.555s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[9.575s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[13.093s] [ 31%] [34m[1mCreating deprecated header file /home/pinet/SLAM_AGV/workspace/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp[0m
+[13.521s] [ 31%] Built target mecanum_drive_controller_parameters
+[13.729s] [ 37%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jowi/dev_ws/src/columbus
+# Install script for directory: /home/pinet/SLAM_AGV/workspace/src/columbus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jowi/dev_ws/install/columbus")
+  set(CMAKE_INSTALL_PREFIX "/home/pinet/SLAM_AGV/workspace/install/columbus")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,8 +42,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jowi/dev_ws/build/columbus/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jowi/dev_ws/build/columbus/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pinet/SLAM_AGV/workspace/build/columbus/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -12,8 +12,8 @@ set_target_properties(mecanum_drive_controller::mecanum_drive_controller PROPERT
   IMPORTED_SONAME_NOCONFIG "libmecanum_drive_controller.so"
   )
 
-list(APPEND _cmake_import_check_targets mecanum_drive_controller::mecanum_drive_controller )
-list(APPEND _cmake_import_check_files_for_mecanum_drive_controller::mecanum_drive_controller "${_IMPORT_PREFIX}/lib/libmecanum_drive_controller.so" )
+list(APPEND _IMPORT_CHECK_TARGETS mecanum_drive_controller::mecanum_drive_controller )
+list(APPEND _IMPORT_CHECK_FILES_FOR_mecanum_drive_controller::mecanum_drive_controller "${_IMPORT_PREFIX}/lib/libmecanum_drive_controller.so" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

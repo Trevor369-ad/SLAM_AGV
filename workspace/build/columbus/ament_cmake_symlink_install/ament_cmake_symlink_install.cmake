@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jowi/dev_ws/install/columbus/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pinet/SLAM_AGV/workspace/install/columbus/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jowi/dev_ws/install/columbus/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pinet/SLAM_AGV/workspace/install/columbus/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jowi/dev_ws/install/columbus/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pinet/SLAM_AGV/workspace/install/columbus/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/jowi/dev_ws/install/columbus/${destination}")
+      set(destination "/home/pinet/SLAM_AGV/workspace/install/columbus/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -292,7 +292,7 @@ function(_ament_cmake_symlink_install_create_symlink absolute_file symlink)
   endif()
 
   execute_process(
-    COMMAND "/usr/local/bin/cmake" "-E" "create_symlink"
+    COMMAND "/usr/bin/cmake" "-E" "create_symlink"
       "${absolute_file}"
       "${symlink}"
   )
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_directory("/home/jowi/dev_ws/src/columbus" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_directory("/home/pinet/SLAM_AGV/workspace/src/columbus" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/columbus")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/columbus" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/columbus" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/columbus" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/columbus" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/columbus" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/columbus" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/columbus" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/columbus" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/columbus/environment")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/columbus/environment")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/columbus/environment")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/columbus/environment")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/columbus/environment")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/columbus/environment")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/columbus/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/columbus/environment")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/columbus/environment")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/columbus/environment")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/columbus/environment")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/columbus/environment")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/columbus/environment")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/columbus/environment")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/columbus")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/columbus")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/columbus")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/columbus")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/columbus")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/columbus")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/columbus")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/columbus")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/columbus")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/columbus")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_index/share/ament_index/resource_index/packages/columbus" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_index/share/ament_index/resource_index/packages/columbus" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_index/share/ament_index/resource_index/packages/columbus" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_index/share/ament_index/resource_index/packages/columbus" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_core/columbusConfig.cmake" "/home/jowi/dev_ws/build/columbus/ament_cmake_core/columbusConfig-version.cmake" "DESTINATION" "share/columbus/cmake")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/build/columbus/ament_cmake_core/columbusConfig.cmake" "/home/jowi/dev_ws/build/columbus/ament_cmake_core/columbusConfig-version.cmake" "DESTINATION" "share/columbus/cmake")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_core/columbusConfig.cmake" "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_core/columbusConfig-version.cmake" "DESTINATION" "share/columbus/cmake")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_core/columbusConfig.cmake" "/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_core/columbusConfig-version.cmake" "DESTINATION" "share/columbus/cmake")
 
-# install(FILES "/home/jowi/dev_ws/src/columbus/package.xml" "DESTINATION" "share/columbus")
-ament_cmake_symlink_install_files("/home/jowi/dev_ws/src/columbus" FILES "/home/jowi/dev_ws/src/columbus/package.xml" "DESTINATION" "share/columbus")
+# install(FILES "/home/pinet/SLAM_AGV/workspace/src/columbus/package.xml" "DESTINATION" "share/columbus")
+ament_cmake_symlink_install_files("/home/pinet/SLAM_AGV/workspace/src/columbus" FILES "/home/pinet/SLAM_AGV/workspace/src/columbus/package.xml" "DESTINATION" "share/columbus")

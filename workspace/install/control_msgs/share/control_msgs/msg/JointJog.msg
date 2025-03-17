@@ -1,1 +1,1 @@
-/home/jowi/dev_ws/src/control_msgs/control_msgs/msg/JointJog.msg
+/home/pinet/SLAM_AGV/workspace/src/control_msgs/control_msgs/msg/JointJog.msg

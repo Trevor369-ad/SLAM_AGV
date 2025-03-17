@@ -1,1 +1,1 @@
-/home/jowi/dev_ws/src/columbus/launch/launch_sim.launch.py
+/home/pinet/SLAM_AGV/workspace/src/columbus/launch/launch_sim.launch.py

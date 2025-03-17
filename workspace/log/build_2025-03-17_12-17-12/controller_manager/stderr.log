@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findbackward_ros.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "backward_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "backward_ros" with
+  any of the following names:
+
+    backward_rosConfig.cmake
+    backward_ros-config.cmake
+
+  Add the installation prefix of "backward_ros" to CMAKE_PREFIX_PATH or set
+  "backward_ros_DIR" to a directory containing one of the above files.  If
+  "backward_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

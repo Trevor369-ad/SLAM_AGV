@@ -12,8 +12,8 @@ set_target_properties(controller_manager_msgs::controller_manager_msgs__rosidl_g
   IMPORTED_SONAME_NOCONFIG "libcontroller_manager_msgs__rosidl_generator_c.so"
   )
 
-list(APPEND _cmake_import_check_targets controller_manager_msgs::controller_manager_msgs__rosidl_generator_c )
-list(APPEND _cmake_import_check_files_for_controller_manager_msgs::controller_manager_msgs__rosidl_generator_c "${_IMPORT_PREFIX}/lib/libcontroller_manager_msgs__rosidl_generator_c.so" )
+list(APPEND _IMPORT_CHECK_TARGETS controller_manager_msgs::controller_manager_msgs__rosidl_generator_c )
+list(APPEND _IMPORT_CHECK_FILES_FOR_controller_manager_msgs::controller_manager_msgs__rosidl_generator_c "${_IMPORT_PREFIX}/lib/libcontroller_manager_msgs__rosidl_generator_c.so" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

@@ -1,0 +1,17 @@
+[2.446s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/pi2stm_comms': PYTHONPATH=/home/pinet/SLAM_AGV/workspace/build/pi2stm_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinet/SLAM_AGV/workspace/install/pi2stm_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pinet/SLAM_AGV/workspace/build/pi2stm_comms/build --no-deps symlink_data
+[3.444s] running develop
+[4.027s] running egg_info
+[4.028s] writing pi2stm_comms.egg-info/PKG-INFO
+[4.028s] writing dependency_links to pi2stm_comms.egg-info/dependency_links.txt
+[4.029s] writing entry points to pi2stm_comms.egg-info/entry_points.txt
+[4.030s] writing requirements to pi2stm_comms.egg-info/requires.txt
+[4.031s] writing top-level names to pi2stm_comms.egg-info/top_level.txt
+[4.038s] reading manifest file 'pi2stm_comms.egg-info/SOURCES.txt'
+[4.041s] writing manifest file 'pi2stm_comms.egg-info/SOURCES.txt'
+[4.046s] running build_ext
+[4.047s] Creating /home/pinet/SLAM_AGV/workspace/install/pi2stm_comms/lib/python3.10/site-packages/pi2stm-comms.egg-link (link to .)
+[4.050s] Installing mecanum_controller_interface script to /home/pinet/SLAM_AGV/workspace/install/pi2stm_comms/lib/pi2stm_comms
+[4.052s] 
+[4.052s] Installed /home/pinet/SLAM_AGV/workspace/build/pi2stm_comms
+[4.052s] running symlink_data
+[4.173s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/pi2stm_comms' returned '0': PYTHONPATH=/home/pinet/SLAM_AGV/workspace/build/pi2stm_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinet/SLAM_AGV/workspace/install/pi2stm_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pinet/SLAM_AGV/workspace/build/pi2stm_comms/build --no-deps symlink_data

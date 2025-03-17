@@ -1,1 +1,1 @@
-/home/jowi/dev_ws/src/control_msgs/control_msgs/msg/GripperCommand.msg
+/home/pinet/SLAM_AGV/workspace/src/control_msgs/control_msgs/msg/GripperCommand.msg

@@ -1,0 +1,6 @@
+Invoking command in '/home/pinet/SLAM_AGV/workspace/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/control_msgs/control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/control_msgs
+Invoked command in '/home/pinet/SLAM_AGV/workspace/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/control_msgs/control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/control_msgs
+Invoking command in '/home/pinet/SLAM_AGV/workspace/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/control_msgs -- -j4 -l4
+Invoked command in '/home/pinet/SLAM_AGV/workspace/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pinet/SLAM_AGV/workspace/build/control_msgs -- -j4 -l4
+Invoking command in '/home/pinet/SLAM_AGV/workspace/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pinet/SLAM_AGV/workspace/build/control_msgs
+Invoked command in '/home/pinet/SLAM_AGV/workspace/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pinet/SLAM_AGV/workspace/build/control_msgs

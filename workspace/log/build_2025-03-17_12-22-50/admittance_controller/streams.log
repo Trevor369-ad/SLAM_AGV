@@ -1,0 +1,60 @@
+[0.103s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/admittance_controller': AMENT_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing/lib:/home/pinet/SLAM_AGV/workspace/install/controller_interface/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface/lib:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/lib:/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/ros2_controllers/admittance_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/admittance_controller
+[0.414s] -- The CXX compiler identification is GNU 11.4.0
+[0.453s] -- Detecting CXX compiler ABI info
+[0.822s] -- Detecting CXX compiler ABI info - done
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.852s] -- Detecting CXX compile features
+[0.854s] -- Detecting CXX compile features - done
+[0.886s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.617s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.903s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.390s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[2.405s] -- Found control_msgs: 4.7.0 (/home/pinet/SLAM_AGV/workspace/install/control_msgs/share/control_msgs/cmake)
+[2.735s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.789s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.859s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.671s] -- Found control_toolbox: 3.6.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[4.057s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.085s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.601s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.727s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.023s] -- Looking for C++ include pthread.h
+[5.530s] -- Looking for C++ include pthread.h - found
+[5.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.044s] -- Found Threads: TRUE  
+[6.881s] -- Found controller_interface: 2.48.0 (/home/pinet/SLAM_AGV/workspace/install/controller_interface/share/controller_interface/cmake)
+[6.955s] -- Found kinematics_interface: 0.3.0 (/opt/ros/humble/share/kinematics_interface/cmake)
+[6.997s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[7.040s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[7.743s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.835s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.842s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.843s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.871s] -- Found tf2_kdl: 0.25.12 (/opt/ros/humble/share/tf2_kdl/cmake)
+[7.985s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[7.989s] -- Found controller_manager: 2.48.0 (/home/pinet/SLAM_AGV/workspace/install/controller_manager/share/controller_manager/cmake)
+[8.097s] -- Found ros2_control_test_assets: 2.48.0 (/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.168s] [31mCMake Error at CMakeLists.txt:66 (find_package):
+[8.168s]   By not providing "Findkinematics_interface_kdl.cmake" in CMAKE_MODULE_PATH
+[8.168s]   this project has asked CMake to find a package configuration file provided
+[8.169s]   by "kinematics_interface_kdl", but CMake did not find one.
+[8.169s] 
+[8.169s]   Could not find a package configuration file provided by
+[8.170s]   "kinematics_interface_kdl" with any of the following names:
+[8.170s] 
+[8.170s]     kinematics_interface_kdlConfig.cmake
+[8.171s]     kinematics_interface_kdl-config.cmake
+[8.171s] 
+[8.171s]   Add the installation prefix of "kinematics_interface_kdl" to
+[8.172s]   CMAKE_PREFIX_PATH or set "kinematics_interface_kdl_DIR" to a directory
+[8.173s]   containing one of the above files.  If "kinematics_interface_kdl" provides
+[8.173s]   a separate development package or SDK, be sure it has been installed.
+[8.174s] 
+[8.174s] [0m
+[8.175s] -- Configuring incomplete, errors occurred!
+[8.175s] See also "/home/pinet/SLAM_AGV/workspace/build/admittance_controller/CMakeFiles/CMakeOutput.log".
+[8.201s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/admittance_controller' returned '1': AMENT_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing:/home/pinet/SLAM_AGV/workspace/install/controller_interface:/home/pinet/SLAM_AGV/workspace/install/hardware_interface:/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs:/home/pinet/SLAM_AGV/workspace/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface_testing/lib:/home/pinet/SLAM_AGV/workspace/install/controller_interface/lib:/home/pinet/SLAM_AGV/workspace/install/hardware_interface/lib:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/lib:/home/pinet/SLAM_AGV/workspace/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pinet/SLAM_AGV/workspace/install/controller_manager/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/pinet/SLAM_AGV/workspace/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pinet/SLAM_AGV/workspace/src/ros2_controllers/admittance_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pinet/SLAM_AGV/workspace/install/admittance_controller

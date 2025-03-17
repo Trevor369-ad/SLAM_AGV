@@ -1,3 +1,0 @@
-/home/jowi/dev_ws/install/pid_controller/lib/libpid_controller.so
-/home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
-/home/jowi/dev_ws/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-noconfig.cmake

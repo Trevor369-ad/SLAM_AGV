@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.001582] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.002179] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.002268] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.002342] (-) JobUnselected: {'identifier': 'columbus'}
+[0.002415] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.002489] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.002563] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.002635] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.002707] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.002783] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.002861] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.002936] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.003012] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.003086] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.003186] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.003670] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.003853] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.004150] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.004306] (-) JobUnselected: {'identifier': 'joy_tester'}
+[0.004394] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.004472] (-) JobUnselected: {'identifier': 'pi2stm_comms'}
+[0.004549] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.004625] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.004700] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.004775] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.004850] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.004925] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.004999] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.005073] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.005147] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.005221] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.005296] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.005371] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.005445] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.005520] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.005594] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.005668] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.005741] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.005825] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict([('control_msgs', '/home/pinet/SLAM_AGV/workspace/install/control_msgs'), ('ros2_control_test_assets', '/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets')])}
+[0.005937] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict([('control_msgs', '/home/pinet/SLAM_AGV/workspace/install/control_msgs'), ('ros2_control_test_assets', '/home/pinet/SLAM_AGV/workspace/install/ros2_control_test_assets'), ('hardware_interface', '/home/pinet/SLAM_AGV/workspace/install/hardware_interface')])}
+[0.006031] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.053271] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 1}
+[0.064340] (controller_interface) JobSkipped: {'identifier': 'controller_interface'}
+[0.064525] (-) EventReactorShutdown: {}

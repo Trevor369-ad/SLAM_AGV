@@ -1,0 +1,28 @@
+[2.427s] Invoking command in '/home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes': PYTHONPATH=/home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[3.410s] running develop
+[3.971s] running egg_info
+[3.971s] creating ros2_controllers_test_nodes.egg-info
+[3.971s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[3.972s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[3.973s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[3.973s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[3.974s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[3.975s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.981s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.984s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.989s] running build_ext
+[3.990s] Creating /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[3.993s] Installing publisher_forward_position_controller script to /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.994s] Installing publisher_joint_trajectory_controller script to /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.996s] 
+[3.996s] Installed /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes
+[3.997s] running symlink_data
+[3.997s] creating /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ament_index
+[3.997s] creating /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[3.998s] creating /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.998s] symbolically linking /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/resource/ros2_controllers_test_nodes -> /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.998s] symbolically linking /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/package.xml -> /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[3.999s] creating /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.999s] symbolically linking /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/test/rrbot_joint_trajectory_publisher.yaml -> /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[4.000s] symbolically linking /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/test/rrbot_forward_position_publisher.yaml -> /home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[4.119s] Invoked command in '/home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pinet/SLAM_AGV/workspace/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pinet/SLAM_AGV/workspace/build/ros2_controllers_test_nodes/build --no-deps symlink_data
