@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/controller_manager_msgs/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c

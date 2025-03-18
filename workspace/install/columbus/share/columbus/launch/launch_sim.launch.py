@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/src/columbus/launch/launch_sim.launch.py

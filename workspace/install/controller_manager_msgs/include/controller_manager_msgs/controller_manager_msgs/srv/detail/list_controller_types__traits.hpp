@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/controller_manager_msgs/rosidl_generator_cpp/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp

@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/controller_manager/ament_cmake_python/controller_manager/controller_manager.egg-info/top_level.txt

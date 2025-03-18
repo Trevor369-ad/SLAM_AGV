@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/src/control_msgs/control_msgs/msg/DynamicInterfaceGroupValues.msg

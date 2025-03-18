@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/control_msgs/rosidl_generator_py/control_msgs/msg/_gripper_command_s.c

@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/src/joy_tester/setup.py

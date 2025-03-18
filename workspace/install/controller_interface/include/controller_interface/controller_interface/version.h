@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/controller_interface/ament_generate_version_header/controller_interface/controller_interface/version.h

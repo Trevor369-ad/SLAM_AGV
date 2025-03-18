@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/columbus/ament_cmake_environment_hooks/local_setup.bash

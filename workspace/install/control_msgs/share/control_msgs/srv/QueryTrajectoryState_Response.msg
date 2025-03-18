@@ -1,1 +1,0 @@
-/home/pinet/SLAM_AGV/workspace/build/control_msgs/rosidl_cmake/srv/QueryTrajectoryState_Response.msg
