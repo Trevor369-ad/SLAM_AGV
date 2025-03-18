@@ -1,8 +1,10 @@
 **/build/
 **/install/
+**/log/
 
-# ignore build and install directories
+# ignore build, install and log directories
 
+# The below  inclusions are not need
 workspace/build/
 workspace/install/
 
