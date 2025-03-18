@@ -1,2 +1,8 @@
 **/build/
 **/install/
+
+# ignore build and install directories
+
+workspace/build/
+workspace/install/
+
