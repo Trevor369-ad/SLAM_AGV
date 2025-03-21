@@ -1,0 +1,10 @@
+<library path="mecanum_drive_stm">
+  <class name="mecanum_drive_stm/MecanumDriveSTMHardware"
+         type="mecanum_drive_stm::MecanumDriveSTMHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      This interface is designed to bridge the ros2_control mecanum_controller with a motor controller
+      which in this case is the stm32. The two devices communicate via the serial protocol
+    </description>
+  </class>
+</library>
