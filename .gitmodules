@@ -23,3 +23,6 @@
 [submodule "workspace/src/joy_tester"]
 	path = workspace/src/joy_tester
 	url = https://github.com/joshnewans/joy_tester.git
+[submodule "workspace/src/serial"]
+	path = workspace/src/serial
+	url = https://github.com/joshnewans/serial.git
