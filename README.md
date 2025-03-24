@@ -61,52 +61,7 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
 
 That's it the robot your robot is up and running! 🎉
 
-## HELLO WORLD EXAMPLE 🌍
 
-To ensure your ROS 2 environment is set up correctly, you can run a simple "Hello World" node. Follow these steps:
-
-1. Create a new ROS 2 package (if not already created):
-    ```bash
-    ros2 pkg create --build-type ament_python hello_world
-    ```
-
-2. Navigate to the package directory:
-    ```bash
-    cd hello_world
-    ```
-
-3. Edit the `hello_world/hello_world/hello_world_node.py` file and add the following code:
-    ```python
-    import rclpy
-    from rclpy.node import Node
-
-    class HelloWorldNode(Node):
-        def __init__(self):
-            super().__init__('hello_world_node')
-            self.get_logger().info('Hello, World!')
-
-    def main(args=None):
-        rclpy.init(args=args)
-        node = HelloWorldNode()
-        rclpy.spin(node)
-        rclpy.shutdown()
-
-    if __name__ == '__main__':
-        main()
-    ```
-
-4. Update the `setup.py` file to include the entry point:
-    ```python
-    entry_points={
-        'console_scripts': [
-            'hello_world_node = hello_world.hello_world_node:main',
-        ],
-    },
-    ```
-
-5. Build the package:
-    ```bash
-    colcon build --packages-select hello_world
     ```
 
 6. Run the "Hello World" node:
