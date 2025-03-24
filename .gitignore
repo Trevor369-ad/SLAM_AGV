@@ -2,6 +2,8 @@
 **/install/
 **/log/
 
+.vscode
+
 # ignore build, install and log directories
 
 # The below  inclusions are not need
