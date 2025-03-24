@@ -25,10 +25,9 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
 
         ```
     2. Build the packages,
-        for systems with less than 4GB of RAM, I recommend building with the ```--executor sequential``` argument to limit resource use, for those with 8GB of RAM ```--parallel-workers 2``` will do. yes YE
+        for systems with less than 4GB of RAM, I recommend building with the ```--executor sequential``` argument to limit resource use, for those with 8GB of RAM ```--parallel-workers 2``` will do.
         ```
-        colcon build --symlink-install --packages-select ros2_controllers_nodes mecanum_drive_controller joint_state_broadcaster 
-            serial mecanum_drive_stm twist_converter joy_tester columbus
+        colcon build --symlink-install --packages-select ros2_controllers_nodes mecanum_drive_controller joint_state_broadcaster serial mecanum_drive_stm twist_converter joy_tester columbus
         ```
     
 ## LAUNCHING THE ROBOT 🚀
