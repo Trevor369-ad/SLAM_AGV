@@ -30,14 +30,18 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
         ```
     
 ## LAUNCHING THE ROBOT 🚀
-1. Launch the joystick controller with
+1.  First source the environment
+    ```
+    source install/setup.bash  
+    ```
+    Launch the joystick controller with
     ```
     ros2 launch columbus joystick.launch.py
     ```
     Edit the /workspace/src/columbus/config/joystick.yaml to match your controller and prefered controls,
         read more about it [here](https://wiki.ros.org/teleop_twist_joy)
     
-    Use the joy_tester 
+    Use the included [joy_tester](https://github.com/joshnewans/joy_tester) to test the joystick
 
 2. Run the twist_converter
     ```
