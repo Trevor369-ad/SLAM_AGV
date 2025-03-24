@@ -63,16 +63,5 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
     Run ```sudo chmod a+rw <device-port>``` to give all users read and write permissions to the specified port (adjust this according to your needs), this allows our
     hardware interface to communicate with the microcontroller.
 
-That's it the robot your robot is up and running! 🎉
+That's it your robot is up and running! 🎉
 
-
-    ```
-
-6. Run the "Hello World" node:
-    ```bash
-    ros2 run hello_world hello_world_node
-    ```
-
-You should see the following output in your terminal:
- ```
-This example demonstrates how to create and run a basic ROS 2 node. 🎉 ```
