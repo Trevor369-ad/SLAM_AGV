@@ -41,6 +41,8 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
     ```
     Edit the /workspace/src/columbus/config/joystick.yaml to match your controller and prefered controls,
         read more about it [here](https://wiki.ros.org/teleop_twist_joy)
+
+    Run ```ros2 run joy joy_enumerate_devices``` to find the device ID of your controller.
     
     Use the included [joy_tester](https://github.com/joshnewans/joy_tester) to test the joystick
 
@@ -57,6 +59,9 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
     Edit the /workspace/src/columbus/description/ros2_control.xacro parameters to connect to your stm controller.
 
     **Make sure you have the right permissions to access the specified port otherwise the controller manager will fail**
+    
+    Run ```sudo chmod a+rw <device-port>``` to give all users read and write permissions to the specified port (adjust this according to your needs), this allows our
+    hardware interface to communicate with the microcontroller.
 
 That's it the robot your robot is up and running! 🎉
 
