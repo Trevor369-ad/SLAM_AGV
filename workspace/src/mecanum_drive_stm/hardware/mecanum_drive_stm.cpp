@@ -164,11 +164,30 @@ hardware_interface::CallbackReturn MecanumDriveSTMHardware::on_deactivate(
 }
 
 hardware_interface::return_type MecanumDriveSTMHardware::read(
-  const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
+  const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
 {
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "reading");
 
-  comms_.read_motor_values(wheel_fl_.vel, wheel_fr_.vel, wheel_bl_.vel, wheel_br_.vel);
+  comms_.read_encoder_values(wheel_fl_.enc, wheel_fr_.enc, wheel_bl_.enc, wheel_br_.enc);
+
+  double delta_seconds = period.seconds();
+  double pos_prev = wheel_fl_.pos;
+  wheel_fl_.pos = wheel_fl_.calc_enc_angle();
+  wheel_fl_.vel = (wheel_fl_.pos - pos_prev) / delta_seconds;
+
+  pos_prev = wheel_fr_.pos;
+  wheel_fr_.pos = wheel_fr_.calc_enc_angle();
+  wheel_fr_.vel = (wheel_fr_.pos - pos_prev) / delta_seconds;
+
+  pos_prev = wheel_bl_.pos;
+  wheel_bl_.pos = wheel_bl_.calc_enc_angle();
+  wheel_bl_.vel = (wheel_bl_.pos - pos_prev) / delta_seconds;
+
+
+  pos_prev = wheel_br_.pos;
+  wheel_br_.pos = wheel_br_.calc_enc_angle();
+  wheel_br_.vel = (wheel_br_.pos - pos_prev) / delta_seconds;
+
 
   return hardware_interface::return_type::OK;
 }

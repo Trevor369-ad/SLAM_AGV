@@ -125,7 +125,7 @@ public:
     std::string response = send_msg("\r",true);
   }
 
-  void read_motor_values(double &val_1, double &val_2, double &val_3, double &val_4)
+  void read_encoder_values(int &val_1, int &val_2, int &val_3, int &val_4)
   {
     std::string response = send_msg("e\r",true);
 
