@@ -8,6 +8,8 @@
 // #include <cstdlib>
 #include <libserial/SerialPort.h>
 #include <iostream>
+#include <chrono>
+
 
 
 LibSerial::BaudRate convert_baud_rate(int baud_rate)
@@ -43,6 +45,11 @@ public:
     timeout_ms_ = timeout_ms;
     serial_conn_.Open(serial_device);
     serial_conn_.SetBaudRate(convert_baud_rate(baud_rate));
+    serial_conn_.SetCharacterSize(LibSerial::CharacterSize::CHAR_SIZE_8);
+    serial_conn_.SetFlowControl(LibSerial::FlowControl::FLOW_CONTROL_NONE);
+    serial_conn_.SetParity(LibSerial::Parity::PARITY_NONE);
+    serial_conn_.SetStopBits(LibSerial::StopBits::STOP_BITS_1);
+
   }
 
   void disconnect()
@@ -64,11 +71,15 @@ public:
     std::cout << "msg_to_send " << msg_to_send << std::endl;
 
     std::string response = "";
+    // std::string test_string = "122.33 434.242 45.23 56.23";
+
+    auto start = std::chrono::high_resolution_clock::now();
+
     try
     {
       // Responses end with \r\n so we will read up to (and including) the \n.
-      serial_conn_.ReadLine(response, '\n', timeout_ms_);
-
+      serial_conn_.ReadLine(response);
+      // serial_conn_.Read(response, test_string.size(), timeout_ms_);
 
     }
     catch (const LibSerial::ReadTimeout&)
@@ -76,9 +87,13 @@ public:
         std::cerr << "The ReadByte() call has timed out." << std::endl ;
     }
 
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed = end - start;
+
     if (print_output)
     {
       std::cout << "Sent: " << msg_to_send << " Recv: " << response << std::endl;
+      std::cout << "Time taken for communication: " << elapsed.count() << " seconds" << std::endl;
     }
 
     return response;
@@ -92,12 +107,15 @@ public:
 
     std::cout << "msg_to_send " << msg_to_send << std::endl;
 
-    /*
+  
     std::string response = "";
+    // std::string test_string = "OK";
+
     try
     {
       // Responses end with \r\n so we will read up to (and including) the \n.
-      serial_conn_.ReadLine(response, '\n', timeout_ms_);
+      serial_conn_.ReadLine(response);
+      // serial_conn_.Read(response, test_string.size(), timeout_ms_);
 
 
     }
@@ -111,7 +129,7 @@ public:
     {
       std::cout << "Sent: " << msg_to_send << " Recv: " << response << std::endl;
     }
-    */
+
     if (print_output)
     {
       std::cout << "Sent: " << msg_to_send << std::endl;
@@ -155,7 +173,7 @@ public:
   {
     std::stringstream ss;
     ss << "m " << val_1 << " " << val_2 << " " << val_3 << " " << val_4 << "\r";
-    send_msg(ss.str());
+    send_msg_no_response(ss.str());
   }
 
   void set_pid_values(int k_p, int k_d, int k_i, int k_o)
