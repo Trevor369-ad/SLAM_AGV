@@ -49,7 +49,8 @@ struct Config
   std::string device = "";
   int baud_rate = 0;
   int timeout_ms = 0;
-  int enc_counts_per_rev = 0;
+  int f_enc_counts_per_rev = 0;
+  int b_enc_counts_per_rev = 0;
 };
 
 

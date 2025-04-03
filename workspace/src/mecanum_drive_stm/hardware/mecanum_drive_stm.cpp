@@ -48,12 +48,13 @@ hardware_interface::CallbackReturn MecanumDriveSTMHardware::on_init(
   cfg_.device = info_.hardware_parameters["device"];
   cfg_.baud_rate = std::stoi(info_.hardware_parameters["baud_rate"]);
   cfg_.timeout_ms = std::stoi(info_.hardware_parameters["timeout_ms"]); 
-  cfg_.enc_counts_per_rev = std::stoi(info_.hardware_parameters["enc_counts_per_rev"]);   
+  cfg_.f_enc_counts_per_rev = std::stoi(info_.hardware_parameters["front_enc_counts_per_rev"]);   
+  cfg_.b_enc_counts_per_rev = std::stoi(info_.hardware_parameters["back_enc_counts_per_rev"]);   
   
-  wheel_fl_.setup(cfg_.front_left_wheel_name, cfg_.enc_counts_per_rev);
-  wheel_fr_.setup(cfg_.front_right_wheel_name, cfg_.enc_counts_per_rev);
-  wheel_bl_.setup(cfg_.back_left_wheel_name, cfg_.enc_counts_per_rev);
-  wheel_br_.setup(cfg_.back_right_wheel_name, cfg_.enc_counts_per_rev);
+  wheel_fl_.setup(cfg_.front_left_wheel_name, cfg_.f_enc_counts_per_rev);
+  wheel_fr_.setup(cfg_.front_right_wheel_name, cfg_.f_enc_counts_per_rev);
+  wheel_bl_.setup(cfg_.back_left_wheel_name, cfg_.b_enc_counts_per_rev);
+  wheel_br_.setup(cfg_.back_right_wheel_name, cfg_.b_enc_counts_per_rev);
 
   for (const hardware_interface::ComponentInfo & joint : info_.joints)
   {
@@ -197,7 +198,12 @@ hardware_interface::return_type mecanum_drive_stm ::MecanumDriveSTMHardware::wri
 {
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "writing");
 
-  comms_.set_motor_values(wheel_fl_.cmd, wheel_fr_.cmd, wheel_bl_.cmd, wheel_br_.cmd);
+  int wheel_fl_rpm = (wheel_fl_.cmd / (2*M_PI)) / 60;
+  int wheel_fr_rpm = (wheel_fr_.cmd / (2*M_PI)) / 60;
+  int wheel_bl_rpm = (wheel_bl_.cmd / (2*M_PI)) / 60;
+  int wheel_br_rpm = (wheel_br_.cmd / (2*M_PI)) / 60;
+
+  comms_.set_motor_values(wheel_fl_rpm, wheel_fr_rpm, wheel_bl_rpm, wheel_br_rpm);
 
   return hardware_interface::return_type::OK;
 }

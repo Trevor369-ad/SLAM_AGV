@@ -15,7 +15,9 @@
         <param name="device">/dev/ttyACM0</param>
         <param name="baud_rate">9600</param>
         <param name="timeout_ms">3000</param>
-        <param name="enc_counts_per_rev">3436</param>
+        <param name="front_enc_counts_per_rev">30</param>
+        <param name="front_enc_counts_per_rev">718</param>
+
         </hardware>
       </xacro:unless>
       <xacro:if value="${use_mock_hardware}">
