@@ -13,6 +13,7 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
     sudo apt install ros-humble-ros2-control
     sudo apt install ros-humble-teleop-twist-joy
     sudo apt install ros-humble-teleop-twist-keyboard
+    sudo apt install ros-humble-mecanum-drive-controller
     sudo apt install libserial-dev
     ```
 3. Start building the packages, building without the --packages-select argument will make colcon build the entire 
@@ -21,7 +22,6 @@ This repository encapsulates code for an AGV robot controlled with ROS  and uses
         ```
         cd workspace
         rosdep install --from-paths src --ignore-src -r -y
-
 
         ```
     2. Build the packages,
