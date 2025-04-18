@@ -103,12 +103,17 @@ std::vector<hardware_interface::StateInterface> MecanumDriveSTMHardware::export_
   std::vector<hardware_interface::StateInterface> state_interfaces;
 
   state_interfaces.emplace_back(wheel_fl_.name, hardware_interface::HW_IF_VELOCITY, &wheel_fl_.vel);
+  state_interfaces.emplace_back(wheel_fl_.name, hardware_interface::HW_IF_POSITION, &wheel_fl_.pos);
 
   state_interfaces.emplace_back(wheel_fr_.name, hardware_interface::HW_IF_VELOCITY, &wheel_fr_.vel);
+  state_interfaces.emplace_back(wheel_fr_.name, hardware_interface::HW_IF_POSITION, &wheel_fr_.pos);
 
   state_interfaces.emplace_back(wheel_bl_.name, hardware_interface::HW_IF_VELOCITY, &wheel_bl_.vel);
+  state_interfaces.emplace_back(wheel_bl_.name, hardware_interface::HW_IF_POSITION, &wheel_bl_.pos);
 
   state_interfaces.emplace_back(wheel_br_.name, hardware_interface::HW_IF_VELOCITY, &wheel_br_.vel);
+  state_interfaces.emplace_back(wheel_br_.name, hardware_interface::HW_IF_POSITION, &wheel_br_.pos);
+
   return state_interfaces;
 }
 
@@ -150,6 +155,7 @@ hardware_interface::CallbackReturn MecanumDriveSTMHardware::on_activate(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "Activating ...please wait...");
+  comms_.buzz(100);
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "Successfully activated!");
 
   return hardware_interface::CallbackReturn::SUCCESS;
@@ -159,6 +165,7 @@ hardware_interface::CallbackReturn MecanumDriveSTMHardware::on_deactivate(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "Deactivating ...please wait...");
+  comms_.buzz(300);
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "Successfully deactivated!");
 
   return hardware_interface::CallbackReturn::SUCCESS;

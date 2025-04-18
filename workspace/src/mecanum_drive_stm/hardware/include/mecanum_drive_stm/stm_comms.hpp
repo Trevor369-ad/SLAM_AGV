@@ -78,7 +78,7 @@ public:
     try
     {
       // Responses end with \r\n so we will read up to (and including) the \n.
-      serial_conn_.ReadLine(response);
+      serial_conn_.ReadLine(response, '\n', timeout_ms_);
       // serial_conn_.Read(response, test_string.size(), timeout_ms_);
 
     }
@@ -114,7 +114,7 @@ public:
     try
     {
       // Responses end with \r\n so we will read up to (and including) the \n.
-      serial_conn_.ReadLine(response);
+      serial_conn_.ReadLine(response, '\n', timeout_ms_);      
       // serial_conn_.Read(response, test_string.size(), timeout_ms_);
 
 
@@ -173,7 +173,7 @@ public:
   {
     std::stringstream ss;
     ss << "m " << val_1 << " " << val_2 << " " << val_3 << " " << val_4 << "\r";
-    send_msg_no_response(ss.str());
+    send_msg(ss.str());
   }
 
   void set_pid_values(int k_p, int k_d, int k_i, int k_o)
@@ -183,6 +183,13 @@ public:
     send_msg(ss.str());
   }
 
+  void buzz(int time_ms)
+  {
+    std::stringstream ss;
+    ss << "b "<< time_ms << "\r";
+    send_msg(ss.str());
+  }
+  
 private:
     LibSerial::SerialPort serial_conn_;
     int timeout_ms_;
