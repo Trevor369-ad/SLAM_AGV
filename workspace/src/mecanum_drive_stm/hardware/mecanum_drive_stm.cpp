@@ -22,6 +22,8 @@
 #include <memory>
 #include <sstream>
 #include <vector>
+// #include <iostream>
+
 
 #include "hardware_interface/lexical_casts.hpp"
 #include "hardware_interface/types/hardware_interface_type_values.hpp"
@@ -76,10 +78,10 @@ hardware_interface::CallbackReturn MecanumDriveSTMHardware::on_init(
       return hardware_interface::CallbackReturn::ERROR;
     }
 
-    if (joint.state_interfaces.size() != 1)
+    if (joint.state_interfaces.size() < 2)
     {
       RCLCPP_FATAL(
-        rclcpp::get_logger("MecanumDriveSTMHardware"), "Joint '%s' has %zu state interface. 1 expected.", joint.name.c_str(),
+        rclcpp::get_logger("MecanumDriveSTMHardware"), "Joint '%s' has %zu state interface. 2 expected.", joint.name.c_str(),
         joint.state_interfaces.size());
       return hardware_interface::CallbackReturn::ERROR;
     }
@@ -205,10 +207,14 @@ hardware_interface::return_type mecanum_drive_stm ::MecanumDriveSTMHardware::wri
 {
   RCLCPP_INFO(rclcpp::get_logger("MecanumDriveSTMHardware"), "writing");
 
-  int wheel_fl_rpm = (wheel_fl_.cmd / (2*M_PI)) / 60;
-  int wheel_fr_rpm = (wheel_fr_.cmd / (2*M_PI)) / 60;
-  int wheel_bl_rpm = (wheel_bl_.cmd / (2*M_PI)) / 60;
-  int wheel_br_rpm = (wheel_br_.cmd / (2*M_PI)) / 60;
+  // std::cout << "writing " <<  wheel_fl_.cmd << wheel_fr_.cmd << wheel_bl_.cmd << wheel_br_.cmd << std::endl;
+
+
+  int wheel_fl_rpm = (wheel_fl_.cmd / (2*M_PI)) * 60;
+  int wheel_fr_rpm = (wheel_fr_.cmd / (2*M_PI)) * 60;
+  int wheel_bl_rpm = (wheel_bl_.cmd / (2*M_PI)) * 60;
+  int wheel_br_rpm = (wheel_br_.cmd / (2*M_PI)) * 60;
+
 
   comms_.set_motor_values(wheel_fl_rpm, wheel_fr_rpm, wheel_bl_rpm, wheel_br_rpm);
 
